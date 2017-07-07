@@ -12,5 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
 });
+
+
+
+Route::get('/client_offers',function(){
+
+	return view('pages.client_offers');
+});
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

@@ -1,0 +1,31 @@
+<link rel="shortcut icon" href="images/favicon.ico" />
+
+<!-- bootstrap -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}" />
+
+<!-- flaticon -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/flaticon.css')}}" />
+
+<!-- mega menu -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/mega-menu/mega_menu.css')}}" />
+
+<!-- mega menu -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.min.css')}}" />
+
+<!-- owl-carousel -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/owl-carousel/owl.carousel.css')}}" />
+
+<!-- magnific-popup -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/magnific-popup/magnific-popup.css')}}" />
+
+<!-- jquery-ui -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/jquery-ui.css')}}" />
+
+<!-- revolution -->
+<link rel="stylesheet" type="text/css" href="{{asset('revolution/css/settings.css')}}">
+
+<!-- main style -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
+
+<!-- responsive -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}" />
