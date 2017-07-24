@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $redirectTo = '/registered_user';
 
     /**
      * Create a new authentication controller instance.
@@ -49,9 +49,12 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:255',
+            'fullname' => 'required|min:5',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
+            'phone'=>'required|numeric|min:6',
+            'username'=>'required|min:4|',
+            'agreement'=>'required',
         ]);
     }
 
@@ -63,10 +66,32 @@ class AuthController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
+        $confirmation_code = str_random(30);
+
+        
+        $user = User::create([
+            'fullname' => $data['fullname'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'phone'=>$data['phone'],
+            'username' => $data['username'],
+            'confirmation_code'=>$confirmation_code,
         ]);
+       
+
+        \Mail::send('pages.email_verify', ['confirmation_code'=>$confirmation_code], function($message) use($data){
+            $message->from("gioskofieldsara@gmail.com", "From Bettinger" );
+            $message->to($data['email'], $data['username'])
+                ->subject('Verify your email address');
+        });
+
+        session()->flash('confirmemail', 'UNCONFIRMED EMAIL');
+        session()->flash('emailtext', 'Confirmation Email Sent. Confirm It To See All Features');
+        session()->flash('whotosay', 'Thanks For Registering  '. $user->username .' With Us');
+        return $user;
+
+
     }
+
+
 }

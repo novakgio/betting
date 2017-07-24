@@ -48,7 +48,7 @@
 <ul>  <!-- SLIDE  -->
     <li data-index="rs-15" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/slider-9/100x50_mainbg-3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
     <!-- MAIN IMAGE -->
-        <img src="revolution/assets/slider-9/mainbg-3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+        <img  style="overflow:hidden" src="revolution/assets/slider-9/bigcourt.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
     <!-- LAYERS -->
 
     <!-- LAYER NR. 1 -->
@@ -86,7 +86,7 @@
 
        data-end="8980" 
 
-      style="z-index: 6; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;text-transform:capitalize;font-style:italic;">Need <strong>Some </strong><br><strong>New </strong>Wheels? </div>
+      style="z-index: 6; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: yellow;font-family:Open Sans;text-transform:capitalize;font-style:italic;">Are You Tired Of <strong> </strong><br><strong>Losing In </strong>Betting? </div>
 
     <!-- LAYER NR. 3 -->
     <div class="tp-caption   tp-resizeme" 
@@ -106,7 +106,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 7; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">Buy & sell your car on <strong>Cardealer </strong> </div>
+      style="z-index: 7; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">We Have An Unique<strong> 100% PLAN </strong> </div>
 
     <!-- LAYER NR. 4 -->
     <div class="tp-caption rev-btn button" 
@@ -186,7 +186,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 7; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">Need <strong>Some </strong>New <strong>Wheels?</strong> </div>
+      style="z-index: 7; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">Give Us A <strong>Chance </strong>And Make <strong>Money</strong> </div>
 
     <!-- LAYER NR. 4 -->
     <div class="tp-caption   tp-resizeme" 
@@ -205,7 +205,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 8; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">Buy & sell your car on Cardealer  </div>
+      style="z-index: 8; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">We Are N-1 With This System  </div>
 
     <!-- LAYER NR. 5 -->
     <div class="tp-caption rev-btn button" 
@@ -249,8 +249,8 @@
            <i class="glyph-icon flaticon-social text-white"></i>
          </div>
          <div class="content">
-           <h6 class="text-white">BUYING AND SELLING RESOURCES </h6>
-           <p class="text-white">We provide everything you need to build an Amazing dealership website developed especially for car sellers, dealers or auto motor retailers. </p>
+           <h6 class="text-white">WHAT WE GIVE</h6>
+           <p class="text-white">We are going to give you the best adventure,money-making trip,new happy life and possibilities with our new system that can beat any betting system</p>
            <a class="button black" href="#"><span>Read More</span> </a>
          </div>
       </div>
@@ -261,8 +261,9 @@
            <i class="glyph-icon flaticon-key text-white"></i>
          </div>
          <div class="content">
-           <h6 class="text-white">DO YOU WANT TO SELL YOUR CAR?  </h6>
-           <p class="text-white">Whether you are looking at buying your dream car or selling a classic or collector car, Car dealer has thousands of premium classics for sale in our online Inventory.  </p>
+           <h6 class="text-white">WHAT YOU GIVE</h6>
+          
+           <p class="text-white">All you have to give is patience,the soul of a fighter and trust in us. When we accomplish this,We will take care of other things and help you get all we said we'd give you</p>
            <a class="button black" href="#"><span>Sell a Car</span> </a>
          </div>
       </div>
@@ -273,8 +274,8 @@
            <i class="glyph-icon flaticon-beetle text-white"></i>
          </div>
          <div class="content">
-           <h6 class="text-white">ARE YOU LOOKING FOR A CAR?</h6>
-           <p class="text-white">American classic cars, muscle cars, exotics, and late model classics are available from private sellers, specialty dealers, and collector car auctions located around the World. </p>
+           <h6 class="text-white">WHAT HAPPENS AFTER THAT?</h6>
+           <p class="text-white">We both make money, live happily and when both sides are satisfied, we can finally say , we worked out the most astonishing bussiness partnership ever </p>
            <a class="button black" href="#"><span>Buy a Car</span> </a>
          </div>
       </div>
@@ -301,8 +302,8 @@
           <i class="glyph-icon flaticon-price-tag text-red"></i>
         </div>
         <div class="content">
-          <h6>LOW PRICES, NO HAGGLING </h6>
-          <p>Best price around the simply dummy text the printin k a galley of type and bled it to make a type specimenbook. but the leap into. </p>
+          <h6>What We Do?</h6>
+          <p>If you play in Gambling and place bets and lose most times, We made the system to help you out and make lots of money</p>
         </div>
      </div>
     </div>
@@ -314,8 +315,8 @@
           <i class="glyph-icon flaticon-air-conditioning text-red"></i>
         </div>
         <div class="content">
-          <h6>LARGEST CAR DEALERSHIP  </h6>
-          <p>Best of the best simply dummy text the printin k a galley of type and bled it to make a type specimenbook. but the leap into.  </p>
+          <h6>Why Us?</h6>
+          <p>Before we made the system, we looked through other websites like this one and we're 100% sure that our system is N-1 in the whole world. </p>
         </div>
      </div>
     </div>
@@ -327,8 +328,8 @@
           <i class="glyph-icon flaticon-reparation text-red"></i>
         </div>
         <div class="content">
-          <h6>MULTIPOINT SAFETY CHECK  </h6>
-          <p>We have your safety is simply dummy text the printin k a galley of type and bled it to make a type specimenbook. but the leap into.  </p>
+          <h6>24/7</h6>
+          <p>Our Support Is Always Ready To Help You Out Anytime, Answer Your Questions and Always Refund If It's your choice </p>
         </div>
      </div>
     </div>
@@ -339,120 +340,7 @@
 <!--=================================
  content-box -->
 
- <!--=================================
- form -->
 
-<section class="search-block find-car bg-3 bg-overlay-black-70 page-section-ptb">
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-12 col-md-12">
-      <div class="section-title text-left">
-         <h2 class="text-white">FIND A DREAM CAR </h2>
-         <div class="separator"></div>
-      </div>
-    </div>
-   </div>
-
-   <div class="row">
-    <div class="col-lg-8 col-md-8">
-     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4">
-       <span>Select make</span>
-        <div class="selected-box">
-          <select class="selectpicker">
-          <option>Make </option>
-          <option>BMW</option>
-          <option>Honda </option>
-          <option>Hyundai </option>
-          <option>Nissan </option>
-          <option>Mercedes Benz </option>
-         </select>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-      <span>Select model</span>
-        <div class="selected-box">
-         <select class="selectpicker">
-          <option>Model</option>
-          <option>3-Series</option>
-          <option>Carrera</option>
-          <option>GT-R</option>
-          <option>Cayenne</option>
-          <option>Mazda6</option>
-          <option>Macan</option>
-         </select>
-       </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-      <span>Select yar</span>
-       <div class="selected-box">
-         <select class="selectpicker">
-          <option>Year</option>
-          <option>2010</option>
-          <option>2011</option>
-          <option>2012</option>
-          <option>2013</option>
-          <option>2014</option>
-          <option>2015</option>
-          <option>2016</option>
-         </select>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-      <span>Select body style</span>
-      <div class="selected-box">
-       <select class="selectpicker">
-          <option>Body style</option>
-          <option>2dr Car</option>
-          <option>4dr Car</option>
-          <option>Convertible</option>
-          <option>Sedan</option>
-          <option>Sports Utility</option>
-         </select>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-     <span>Select vehicle status</span>
-       <div class="selected-box">
-         <select class="selectpicker">
-          <option>Vehicle Status</option>
-          <option>Condition</option>
-          <option>All Conditions</option>
-          <option>Condition</option>
-          <option>Brand New</option>
-          <option>Slightly Used</option>
-          <option>Used</option> 
-         </select>
-       </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-     <span>Select Mileage</span>
-       <div class="selected-box">
-         <select class="selectpicker">
-          <option>1</option>
-          <option>102</option>
-          <option>13</option>
-          <option>1540</option>
-          <option>15</option>
-          <option>20</option>
-         </select>
-       </div>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-4 col-md-4">
-       <div class="price-slide">
-          <div class="price">
-           <label for="amount">Price Range</label>
-            <input type="text" id="amount" class="amount" value="$50 - $300" />
-            <div id="slider-range"></div>
-            <a class="button" href="#">Search the Vehicle</a>
-          </div>
-         </div>
-        </div>
-      </div>
-    </div>
-  </section> 
 
  <!--=================================
  form -->

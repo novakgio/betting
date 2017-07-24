@@ -40,7 +40,7 @@
 <!--=================================
  inner-intro -->
  
- <section class="inner-intro bg-1 bg-overlay-black-70">
+ <section class="inner-intro login_image bg-1 bg-overlay-black-70">
   <div class="container">
      <div class="row text-center intro-title">
          <div class="col-lg-6 col-md-6 col-sm-6 text-left">
@@ -69,7 +69,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12">
          <div class="section-title">
-           <span>Log in with your id or social media </span>
+          
            <h2>Login To Your Account</h2>
            <div class="separator"></div>
          </div>
@@ -78,32 +78,41 @@
     <div class="row">
      <div class="col-md-6 col-md-offset-3">
      <div class="gray-form clearfix">
-         <div class="form-group">
-             <label for="name">User name* </label>
-               <input id="name" class="form-control" type="text" placeholder="User name" name="web">
+      <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+      {{ csrf_field() }}
+            <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                <label>Email* </label>
+                <input class="form-control" type="email" placeholder="email" name="email" value="{{ old('email') }}">
+                @if ($errors->has('email'))
+                    <span class="help-block">
+                        <strong>{{ $errors->first('email') }}</strong>
+                    </span>
+                @endif
             </div>
-            <div class="form-group">
-             <label for="Password">Password* </label>
 
-               <input id="Password" class="form-control" type="password" placeholder="Password" name="Password">
-              </div> 
-            <div class="form-group">
-              <div class="remember-checkbox mb-30">
-                 <input type="checkbox" name="one" id="one">
-                 <label for="one"> Remember me</label>
-                 <a href="#" class="pull-right">Forgot Password?</a>
-                </div>
-              </div>
-              <a href="#" class="button red"> Log in </a>
+
+
+             <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                <label>Password* </label>
+                <input class="form-control" type="password" placeholder="Password" name="password" >
+                @if ($errors->has('password'))
+                    <span class="help-block">
+                        <strong>{{ $errors->first('password') }}</strong>
+                    </span>
+                @endif
+            </div>
+            
+              <button type="submit" class="button red"> Log in </button>
           </div> 
-          <div class="login-social text-center">
+         <!--  <div class="login-social text-center">
             <h5>Login with Social media</h5>
             <ul>
                 <li><a class="fb button" href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
                 <li><a class="twitter button" href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
                 <li><a class="pinterest button" href="#"><i class="fa fa-google-plus"></i> google+</a></li>
             </ul>
-          </div>           
+          </div>      --> 
+        </form>     
       </div>
      </div>
    </div>

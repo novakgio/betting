@@ -45,7 +45,7 @@
   <div class="container">
      <div class="row text-center intro-title">
            <div class="col-lg-6 col-md-6 col-sm-6 text-left">
-             <h1 class="text-white">Register </h1>
+             <h1 class="text-white">{{session()->get('confirmemail')}} </h1>
            </div>
            <div class="col-lg-6 col-md-6 col-sm-6 text-right">
              <ul class="page-breadcrumb">
@@ -73,122 +73,18 @@
          <div class="section-title">
          
           
-           <h2>Thanks For Registering, {{Auth::user()->username}} With Us</h2>
+           <h2>{{session()->get('whotosay')}} </h2>
 
 
            <div class="separator"></div>
            <div class="separator"></div>
-           <h2>If The Email Address You Put While Registering is correct, We sent you a confirmation code on email</h2>
+           <h2>{{session()->get('emailtext')}} </h2>
          </div>
       </div>
     </div>
     </div>
     </section>
-@else
-
-<section class="register-form page-section-ptb">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10">
-         <div class="section-title">
-           <span>Welcome to </span>
-           <h2>THE BEST BETTING TIPS WEBSITE</h2>
-
-           <div class="separator"></div>
-         </div>
-      </div>
-    </div>
-    <div class="row">
-       <div class="col-md-8 col-md-offset-2">
-        <div class="gray-form">
-           <div class="row">
-           <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
-                        {{ csrf_field() }}
-            <div class="form-group{{ $errors->has('fullname') ? ' has-error' : '' }}">
-                <label>Full Name*</label>
-                <input class="form-control" type="text" placeholder="Your Name" name="fullname" value="{{ old('fullname') }}">
-                @if ($errors->has('fullname'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('fullname') }}</strong>
-                    </span>
-                @endif
-            </div> 
-           
-            <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
-                <label>Username* </label>
-                <input  class="form-control" type="text" placeholder="Choose your user name" name="username" value="{{ old('username') }}">
-                @if ($errors->has('username'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('username') }}</strong>
-                    </span>
-                @endif
-            </div>
-
-
-            <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                <label>Password* </label>
-                <input class="form-control" type="password" placeholder="Password" name="password" >
-                @if ($errors->has('password'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('password') }}</strong>
-                    </span>
-                @endif
-            </div>
-
-
-           <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
-                <label>Confirm Password* </label>
-                <input class="form-control" type="password" placeholder="Password" name="password_confirmation">
-                @if ($errors->has('password_confirmation'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('password_confirmation') }}</strong>
-                    </span>
-                @endif
-            </div>
-            <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                <label>Email* </label>
-                <input class="form-control" type="email" placeholder="email" name="email" value="{{ old('email') }}">
-                @if ($errors->has('email'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('email') }}</strong>
-                    </span>
-                @endif
-            </div>
-
-
-            <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
-                <label>Phone* </label>
-                <input class="form-control" type="text" placeholder="phone" name="phone" value="{{ old('phone') }}">
-                @if ($errors->has('phone'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('phone') }}</strong>
-                    </span>
-                @endif
-            </div>
-            
-            <div class="form-group{{ $errors->has('robot') ? ' has-error' : '' }}">
-                <div class="remember-checkbox">
-                    <input type="checkbox" name="agreement" id="one" />
-                    <label for="one">Accept our <a href="#"> privacy policy</a> and <a href="#"> customer agreement</a></label>
-                     @if ($errors->has('agreement'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('agreement') }}</strong>
-                    </span>
-                @endif
-                </div>
-            </div>
-                   <button type="submit" class="button red"> Register an account </button>
-                   <p class="link">Already have an account? please <a href="{{url('/login')}}"> login here </a></p>
-
-            </form>
-               </div>
-           </div>
-       </div>
-    </div>
-</section>
 @endif
-<!--=================================
- register-form  -->
  
  
 <!--=================================

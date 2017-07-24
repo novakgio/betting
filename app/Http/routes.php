@@ -17,10 +17,16 @@ Route::get('/', function () {
 
 
 
-Route::get('/client_offers',function(){
-
-	return view('pages.client_offers');
-});
 Route::auth();
+Route::get('/registered_user','HomeController@afterRegister')->name('registered_user');
+
+Route::get('register/verify/{confirmationCode}', [
+    'as' => 'confirmation_path',
+    'uses' => 'HomeController@confirmAfterRegister'
+]);
+Route::get('/logout','HomeController@logout');
+
+Route::get('/contact-us','HomeController@contactUs');
+Route::get('/about-us','HomeController@aboutUs');
 
 Route::get('/home', 'HomeController@index');

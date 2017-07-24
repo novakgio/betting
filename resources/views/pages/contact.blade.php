@@ -9,13 +9,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>Car Dealer - The Best Car Dealer Automotive Responsive HTML5 Template</title>
 
-<!-- Favicon -->
 @include('urls_include.css_urls')
 
 </head>
 
 <body>
-
 
 <!--=================================
   loading -->
@@ -28,12 +26,12 @@
 
 <!--=================================
   loading -->
-  
 
+  
 <!--=================================
  header -->
-
 @include('layouts_include.header')
+
 <!--=================================
  header -->
 
@@ -41,17 +39,17 @@
 <!--=================================
  inner-intro -->
  
- <section class="inner-intro register_image bg-1 bg-overlay-black-70">
+ <section class="inner-intro bg-1 bg-overlay-black-70">
   <div class="container">
      <div class="row text-center intro-title">
            <div class="col-lg-6 col-md-6 col-sm-6 text-left">
-             <h1 class="text-white">Register </h1>
+             <h1 class="text-white">Conatct us </h1>
            </div>
            <div class="col-lg-6 col-md-6 col-sm-6 text-right">
              <ul class="page-breadcrumb">
                 <li><a href="#"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
                 <li><a href="#">pages</a> <i class="fa fa-angle-double-right"></i></li>
-                <li><span>Register</span> </li>
+                <li><span>Conatct us 01</span> </li>
              </ul>
            </div>
      </div>
@@ -63,134 +61,157 @@
 
 
 <!--=================================
- register-form  -->
+ contact -->
 
-@if(Auth::user())
-<section class="register-form page-section-ptb">
+<section class="contact page-section-ptb white-bg">
   <div class="container">
     <div class="row">
-      <div class="col-md-offset-1 col-md-10">
+      <div class="col-lg-12 col-md-12">
          <div class="section-title">
-         
-          
-           <h2>Thanks For Registering, {{Auth::user()->username}} With Us</h2>
-
-
-           <div class="separator"></div>
-           <div class="separator"></div>
-           <h2>If The Email Address You Put While Registering is correct, We sent you a confirmation code on email</h2>
-         </div>
-      </div>
-    </div>
-    </div>
-    </section>
-@else
-
-<section class="register-form page-section-ptb">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10">
-         <div class="section-title">
-           <span>Welcome to </span>
-           <h2>THE BEST BETTING TIPS WEBSITE</h2>
-
+           <span>We’d Love to Hear From You</span>
+           <h2>LET'S GET IN TOUCH!</h2>
            <div class="separator"></div>
          </div>
       </div>
     </div>
     <div class="row">
-       <div class="col-md-8 col-md-offset-2">
-        <div class="gray-form">
-           <div class="row">
-           <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
-                        {{ csrf_field() }}
-            <div class="form-group{{ $errors->has('fullname') ? ' has-error' : '' }}">
-                <label>Full Name*</label>
-                <input class="form-control" type="text" placeholder="Your Name" name="fullname" value="{{ old('fullname') }}">
-                @if ($errors->has('fullname'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('fullname') }}</strong>
-                    </span>
-                @endif
-            </div> 
-           
-            <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
-                <label>Username* </label>
-                <input  class="form-control" type="text" placeholder="Choose your user name" name="username" value="{{ old('username') }}">
-                @if ($errors->has('username'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('username') }}</strong>
-                    </span>
-                @endif
-            </div>
-
-
-            <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                <label>Password* </label>
-                <input class="form-control" type="password" placeholder="Password" name="password" >
-                @if ($errors->has('password'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('password') }}</strong>
-                    </span>
-                @endif
-            </div>
-
-
-           <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
-                <label>Confirm Password* </label>
-                <input class="form-control" type="password" placeholder="Password" name="password_confirmation">
-                @if ($errors->has('password_confirmation'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('password_confirmation') }}</strong>
-                    </span>
-                @endif
-            </div>
-            <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                <label>Email* </label>
-                <input class="form-control" type="email" placeholder="email" name="email" value="{{ old('email') }}">
-                @if ($errors->has('email'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('email') }}</strong>
-                    </span>
-                @endif
-            </div>
-
-
-            <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
-                <label>Phone* </label>
-                <input class="form-control" type="text" placeholder="phone" name="phone" value="{{ old('phone') }}">
-                @if ($errors->has('phone'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('phone') }}</strong>
-                    </span>
-                @endif
-            </div>
-            
-            <div class="form-group{{ $errors->has('robot') ? ' has-error' : '' }}">
-                <div class="remember-checkbox">
-                    <input type="checkbox" name="agreement" id="one" />
-                    <label for="one">Accept our <a href="#"> privacy policy</a> and <a href="#"> customer agreement</a></label>
-                     @if ($errors->has('agreement'))
-                    <span class="help-block">
-                        <strong>{{ $errors->first('agreement') }}</strong>
-                    </span>
-                @endif
+      <div class="col-lg-3 col-md-3 col-sm-6">
+       <div class="contact-box text-center">
+          <i class="fa fa-map-marker"></i>
+          <h5>Address</h5>
+          <p>220E Front St. Burlington NC 215</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+       <div class="contact-box text-center">
+          <i class="fa fa-phone"></i>
+          <h5>Phone</h5>
+          <p> (007) 123 456 7890</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+       <div class="contact-box text-center">
+          <i class="fa fa-envelope-o"></i>
+          <h5>Email</h5>
+          <p> support@website.com</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+       <div class="contact-box text-center">
+          <i class="fa fa-fax"></i>
+          <h5>Fax</h5>
+          <p>(007) 123 456 7890</p>
+        </div>
+      </div>
+    </div>
+    <div class="page-section-ptb">
+      <div class="row">
+       <div class="col-lg-8 col-md-8">
+       <div class="gray-form row">
+         <div id="formmessage">Success/Error Message Goes Here</div>
+           <form class="form-horizontal" id="contactform" role="form" method="post" action="php/contact-form.php">
+            <div class="contact-form">
+              <div class="col-lg-4 col-md-4">
+               <div class="form-group">
+                 <input id="name" type="text" placeholder="Name*" class="form-control"  name="name">
+               </div> 
+             </div> 
+             <div class="col-lg-4 col-md-4">
+               <div class="form-group">
+                 <input type="email" placeholder="Email*" class="form-control" name="email">
                 </div>
-            </div>
-                   <button type="submit" class="button red"> Register an account </button>
-                   <p class="link">Already have an account? please <a href="{{url('/login')}}"> login here </a></p>
-
-            </form>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="form-group">
+                  <input type="text" placeholder="Phone*" class="form-control" name="phone">
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                 <div class="form-group">
+                   <textarea class="form-control input-message" placeholder="Comment*" rows="7" name="message"></textarea>
+                 </div>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                 <input type="hidden" name="action" value="sendEmail"/>
+                 <button id="submit" name="submit" type="submit" value="Send" class="button red"> Send your message </button>
                </div>
-           </div>
+              </div>
+          </form>
+          <div id="ajaxloader" style="display:none"><img class="center-block" src="images/ajax-loader.gif" alt=""></div> 
+           </div> 
        </div>
-    </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="opening-hours gray-bg">
+          <h6>opening hours</h6>
+          <ul class="list-style-none">
+            <li><strong>Sunday</strong> <span class="text-red"> closed</span></li>
+            <li><strong>Monday</strong> <span> 9:00 AM to 9:00 PM</span></li>
+            <li><strong>Tuesday </strong> <span> 9:00 AM to 9:00 PM</span></li>
+            <li><strong>Wednesday </strong> <span> 9:00 AM to 9:00 PM</span></li>
+            <li><strong>Thursday </strong> <span> 9:00 AM to 9:00 PM</span></li>
+            <li><strong>Friday </strong> <span> 9:00 AM to 9:00 PM</span></li>
+            <li><strong>Saturday </strong> <span> 9:00 AM to 9:00 PM</span></li>
+          </ul>
+        </div>
+      </div>
+     </div>
+ </div>
+   <div class="row">
+     <div class="col-lg-4 col-md-4 col-sm-4">
+       <div class="feature-box-3">
+          <div class="icon">
+            <i class="fa fa-clock-o"></i>
+          </div>
+          <div class="content">
+            <h6>opening hours </h6>
+            <p>Voluptatem accusanoremque sed ut perspiciatis unde omnis iste natus error sit laudantium, totam rem aperiam. </p>
+          </div>
+         </div>
+     </div>
+     <div class="col-lg-4 col-md-4 col-sm-4">
+       <div class="feature-box-3">
+          <div class="icon">
+            <i class="fa fa-support"></i>
+          </div>
+          <div class="content">
+            <h6>Our Support Center </h6>
+            <p>Iste natus error sit sed ut perspiciatis unde omnis voluptatem laudantium, totam rem aperiam. </p>
+          </div>
+         </div>
+     </div>
+     <div class="col-lg-4 col-md-4 col-sm-4">
+       <div class="feature-box-3">
+          <div class="icon">
+            <i class="fa fa-info"></i>
+          </div>
+          <div class="content">
+            <h6>Some Information </h6>
+            <p>Totam rem aperiam sed ut perspiciatis unde omnis iste natus error sit voluptatem laudantium.</p>
+          </div>
+         </div>
+     </div>
+   </div>
+  </div>
 </section>
-@endif
+
 <!--=================================
- register-form  -->
+ contact -->
+
+
+<!--=================================
+ contact-map -->
+
+
+ <section class="contact-map">
+  <div class="container-fluid">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.017231421863!2d-79.43780268425046!3d36.09306798010035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88532bae09664ccb%3A0xaa6b8f98d3fb8135!2s220+E+Front+St%2C+Burlington%2C+NC+27215%2C+USA!5e0!3m2!1sen!2sin!4v1475045272926" allowfullscreen></iframe>
+  </div>
+ </section>
+
+<!--=================================
+ contact-map -->
  
- 
+
 <!--=================================
  footer -->
 
@@ -301,7 +322,6 @@
  
 <!--=================================
  footer -->
-  
 
  <!--=================================
  back to top -->
@@ -310,13 +330,6 @@
   <span><img src="images/car.png" alt=""></span>
 </div>
 
- <!--=================================
- back to top -->
-
-<!--=================================
- jquery -->
-
-<!-- jquery  -->
 @include('urls_include.js_urls')
   
 </body>
