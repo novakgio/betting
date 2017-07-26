@@ -421,22 +421,7 @@ var POTENZA = {};
      PHP contact form 
 *************************/
   POTENZA.contactform = function () {
-      $( "#contactform" ).submit(function( event ) {
-          $("#ajaxloader").show();
-          $("#contactform").hide();
-          $.ajax({
-            url:'php/contact-form.php',
-            data:$(this).serialize(),
-            type:'post',
-            success:function(response){
-              $("#ajaxloader").hide();
-              $("#contactform").show();
-              
-              $("#formmessage").html(response).show().delay(2000).fadeOut('slow');
-            }
-          });
-          event.preventDefault();
-        });
+     
     }
 
 /*************************

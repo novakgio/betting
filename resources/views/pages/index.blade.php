@@ -48,30 +48,15 @@
 <ul>  <!-- SLIDE  -->
     <li data-index="rs-15" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/slider-9/100x50_mainbg-3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
     <!-- MAIN IMAGE -->
-        <img  style="overflow:hidden" src="revolution/assets/slider-9/bigcourt.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+        <img src="revolution/assets/slider-9/bigcourt.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
     <!-- LAYERS -->
 
     <!-- LAYER NR. 1 -->
-    <div class="tp-caption   tp-resizeme" 
-       id="slide-15-layer-1" 
-       data-x="right" data-hoffset="131" 
-       data-y="189" 
-            data-width="['none','none','none','none']"
-      data-height="['none','none','none','none']"
-      data-transform_idle="o:1;"
- 
-       data-transform_in="x:right;s:800;e:Power2.easeInOut;" 
-       data-transform_out="opacity:0;s:300;" 
-      data-start="500" 
-      data-responsive_offset="on" 
-
-      
-      style="z-index: 5;"><img src="revolution/assets/slider-9/red-car.png" alt="" data-ww="1139px" data-hh="359px" data-no-retina> </div>
-
+   
     <!-- LAYER NR. 2 -->
     <div class="tp-caption   tp-resizeme" 
        id="slide-15-layer-2" 
-       data-x="140" 
+       data-x="600" 
        data-y="200" 
             data-width="['auto']"
       data-height="['auto']"
@@ -86,12 +71,12 @@
 
        data-end="8980" 
 
-      style="z-index: 6; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: yellow;font-family:Open Sans;text-transform:capitalize;font-style:italic;">Are You Tired Of <strong> </strong><br><strong>Losing In </strong>Betting? </div>
+      style="z-index: 6; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: white;font-family:Oswald;text-transform:capitalize;font-style:italic; font-variant: small-caps;">Are You Tired Of <strong> </strong><br><strong>Losing In </strong>Betting? </div>
 
     <!-- LAYER NR. 3 -->
     <div class="tp-caption   tp-resizeme" 
        id="slide-15-layer-3" 
-       data-x="140" 
+       data-x="650" 
        data-y="400" 
             data-width="['auto']"
       data-height="['auto']"
@@ -111,7 +96,7 @@
     <!-- LAYER NR. 4 -->
     <div class="tp-caption rev-btn button" 
        id="slide-15-layer-4" 
-       data-x="140" 
+       data-x="750" 
        data-y="470" 
             data-width="['auto']"
       data-height="['auto']"
@@ -127,49 +112,16 @@
       data-responsive_offset="on" 
       data-responsive="off"
       
-      style="z-index: 8; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 600;font-family:Open Sans;text-transform:capitalize;font-style:italic;padding:12px 35px 12px 35px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Search Here </div>
+      style="z-index: 8; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 600;font-family:Open Sans;text-transform:capitalize;font-style:italic;padding:12px 35px 12px 35px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">find out </div>
   </li>
   <!-- SLIDE  -->
     <li data-index="rs-16" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/slider-9/100x50_mainbg-3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
     <!-- MAIN IMAGE -->
-        <img src="revolution/assets/slider-9/mainbg-3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+        <img src="revolution/assets/slider-9/biglebron.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
     <!-- LAYERS -->
 
     <!-- LAYER NR. 1 -->
-    <div class="tp-caption   tp-resizeme" 
-       id="slide-16-layer-5" 
-       data-x="100" 
-       data-y="370" 
-            data-width="['none','none','none','none']"
-      data-height="['none','none','none','none']"
-      data-transform_idle="o:1;"
- 
-       data-transform_in="x:left;s:800;e:Power2.easeInOut;" 
-       data-transform_out="opacity:0;s:300;" 
-      data-start="500" 
-      data-responsive_offset="on" 
-
-      
-      style="z-index: 5;"><img src="revolution/assets/slider-9/leftside-car.png" alt="" data-ww="777px" data-hh="245px" data-no-retina> </div>
-
-    <!-- LAYER NR. 2 -->
-    <div class="tp-caption   tp-resizeme" 
-       id="slide-16-layer-7" 
-       data-x="right" data-hoffset="100" 
-       data-y="370" 
-            data-width="['none','none','none','none']"
-      data-height="['none','none','none','none']"
-      data-transform_idle="o:1;"
- 
-       data-transform_in="x:right;s:800;e:Power2.easeInOut;" 
-       data-transform_out="opacity:0;s:570;" 
-      data-start="770" 
-      data-responsive_offset="on" 
-
-      
-      style="z-index: 6;"><img src="revolution/assets/slider-9/rightside-car.png" alt="" data-ww="777px" data-hh="245px" data-no-retina> </div>
-
-    <!-- LAYER NR. 3 -->
+    
     <div class="tp-caption   tp-resizeme" 
        id="slide-16-layer-8" 
        data-x="center" data-hoffset="" 
@@ -186,7 +138,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 7; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">Give Us A <strong>Chance </strong>And Make <strong>Money</strong> </div>
+      style="z-index: 7; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 300; color: white;">Give Us A <strong>Chance </strong>And Make <strong>Money</strong> </div>
 
     <!-- LAYER NR. 4 -->
     <div class="tp-caption   tp-resizeme" 
@@ -205,7 +157,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 8; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">We Are N-1 With This System  </div>
+      style="z-index: 8; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: #2D9D94;">We Are N-1 With This System  </div>
 
     <!-- LAYER NR. 5 -->
     <div class="tp-caption rev-btn button" 
@@ -227,7 +179,7 @@
       data-responsive="off"
        data-end="8990" 
 
-      style="z-index: 9; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 600;font-family:Open Sans;text-transform:capitalize;padding:12px 35px 12px 35px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Click Here </div>
+      style="z-index: 9; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 600;font-family:Open Sans;text-transform:capitalize;padding:12px 35px 12px 35px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">find out</div>
   </li>
 </ul>
 <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
@@ -251,7 +203,7 @@
          <div class="content">
            <h6 class="text-white">WHAT WE GIVE</h6>
            <p class="text-white">We are going to give you the best adventure,money-making trip,new happy life and possibilities with our new system that can beat any betting system</p>
-           <a class="button black" href="#"><span>Read More</span> </a>
+           <a class="button black" href="#"><span>read more</span> </a>
          </div>
       </div>
     </div>
@@ -264,7 +216,7 @@
            <h6 class="text-white">WHAT YOU GIVE</h6>
           
            <p class="text-white">All you have to give is patience,the soul of a fighter and trust in us. When we accomplish this,We will take care of other things and help you get all we said we'd give you</p>
-           <a class="button black" href="#"><span>Sell a Car</span> </a>
+           <a class="button black" href="#"><span>check out</span> </a>
          </div>
       </div>
     </div>
@@ -276,7 +228,7 @@
          <div class="content">
            <h6 class="text-white">WHAT HAPPENS AFTER THAT?</h6>
            <p class="text-white">We both make money, live happily and when both sides are satisfied, we can finally say , we worked out the most astonishing bussiness partnership ever </p>
-           <a class="button black" href="#"><span>Buy a Car</span> </a>
+           <a class="button black" href="#"><span>why not?</span> </a>
          </div>
       </div>
     </div>
@@ -295,7 +247,7 @@
  <div class="container">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive center-block" src="images/blog/02.jpg" alt="">
+      <img class="img-responsive index-page-image center-block" src="images/lebron.jpg" alt="">
       <br/>
       <div class="feature-box-4">
         <div class="icon">
@@ -308,7 +260,7 @@
      </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive center-block" src="images/blog/03.jpg" alt="">
+      <img class="img-responsive index-page-image center-block" src="images/roger-federer.jpg" alt="">
       <br/>
       <div class="feature-box-4">
         <div class="icon">
@@ -321,7 +273,7 @@
      </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive center-block" src="images/blog/04.jpg" alt="">
+      <img class="img-responsive index-page-image center-block" src="images/ronaldo.jpg" alt="">
       <br/>
       <div class="feature-box-4">
         <div class="icon">
@@ -329,7 +281,7 @@
         </div>
         <div class="content">
           <h6>24/7</h6>
-          <p>Our Support Is Always Ready To Help You Out Anytime, Answer Your Questions and Always Refund If It's your choice </p>
+          <p>Our support is Always ready to help you out Anytime, answer your questions and always refund if it's your Choice</p>
         </div>
      </div>
     </div>
@@ -353,8 +305,8 @@
    <div class="row">
     <div class="col-lg-12 col-md-12">
       <div class="section-title">
-         <span>Check out our Latest Car</span>
-         <h2>LATEST CAR </h2>
+         <span>our 10 year experience includes</span>
+         <h2>sports such as: </h2>
          <div class="separator"></div>
       </div>
     </div>
@@ -365,30 +317,19 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/car/05.jpg" alt="">
-           <div class="car-overlay-banner">
-            <ul> 
-              <li><a href="#"><i class="fa fa-link"></i></a></li>
-              <li><a href="#"><i class="fa fa-dashboard"></i></a></li>
-             </ul>
-           </div>
+           <img class="img-responsive" src="images/tennis_skill1.jpg" alt="">
+           
          </div>
-         <div class="car-list">
-           <ul class="list-inline">
-             <li><i class="fa fa-registered"></i> 2017</li>
-             <li><i class="fa fa-cog"></i> Manual </li>
-             <li><i class="fa fa-dashboard"></i> 6,000 mi</li>
-           </ul>
-        </div>
+         
          <div class="car-content">
           <div class="star">
            <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
-            <i class="fa fa-star-o orange-color"></i>
+            <i class="fa fa-star orange-color"></i>
            </div>
-           <a href="#">Acura Rsx</a>
+           <a href="#">Tennis</a>
            <div class="separator"></div>
          </div>
        </div>
@@ -396,30 +337,17 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/car/06.jpg" alt="">
-           <div class="car-overlay-banner">
-            <ul> 
-              <li><a href="#"><i class="fa fa-link"></i></a></li>
-              <li><a href="#"><i class="fa fa-dashboard"></i></a></li>
-             </ul>
-           </div>
-         </div>
-         <div class="car-list">
-           <ul class="list-inline">
-             <li><i class="fa fa-registered"></i> 2017</li>
-             <li><i class="fa fa-cog"></i> Manual </li>
-             <li><i class="fa fa-dashboard"></i> 6,000 mi</li>
-           </ul>
-        </div>
+           <img class="img-responsive" src="images/football_skill2.jpg" alt="">
+          </div>
          <div class="car-content">
           <div class="star">
            <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
-            <i class="fa fa-star-o orange-color"></i>
+            <i class="fa fa-star orange-color"></i>
            </div>
-           <a href="#">Lexus GS 450h</a>
+           <a href="#">Football</a>
            <div class="separator"></div>
          </div>
        </div>
@@ -427,30 +355,17 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/car/07.jpg" alt="">
-           <div class="car-overlay-banner">
-            <ul> 
-              <li><a href="#"><i class="fa fa-link"></i></a></li>
-              <li><a href="#"><i class="fa fa-dashboard"></i></a></li>
-             </ul>
-           </div>
-         </div>
-         <div class="car-list">
-           <ul class="list-inline">
-             <li><i class="fa fa-registered"></i> 2017</li>
-             <li><i class="fa fa-cog"></i> Manual </li>
-             <li><i class="fa fa-dashboard"></i> 6,000 mi</li>
-           </ul>
-        </div>
+           <img class="img-responsive" src="images/basketball_skill3.jpg" alt="">
+          </div>
          <div class="car-content">
           <div class="star">
            <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
-            <i class="fa fa-star-o orange-color"></i>
+            <i class="fa fa-star orange-color"></i>
            </div>
-           <a href="#">GTA 5 Lowriders DLC</a>
+           <a href="#">Basketball</a>
            <div class="separator"></div>
          </div>
        </div>
@@ -458,21 +373,8 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/car/01.jpg" alt="">
-           <div class="car-overlay-banner">
-            <ul> 
-              <li><a href="#"><i class="fa fa-link"></i></a></li>
-              <li><a href="#"><i class="fa fa-dashboard"></i></a></li>
-             </ul>
-           </div>
+           <img class="img-responsive" src="images/volleyball_skill4.jpg" alt="">
          </div>
-         <div class="car-list">
-           <ul class="list-inline">
-             <li><i class="fa fa-registered"></i> 2017</li>
-             <li><i class="fa fa-cog"></i> Manual </li>
-             <li><i class="fa fa-dashboard"></i> 6,000 mi</li>
-           </ul>
-        </div>
          <div class="car-content">
           <div class="star">
            <i class="fa fa-star orange-color"></i>
@@ -481,7 +383,7 @@
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star-o orange-color"></i>
            </div>
-           <a href="#">Toyota avalon hybrid </a>
+           <a href="#">Volleyball</a>
            <div class="separator"></div>
          </div>
        </div>
@@ -489,30 +391,17 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/car/02.jpg" alt="">
-           <div class="car-overlay-banner">
-            <ul> 
-              <li><a href="#"><i class="fa fa-link"></i></a></li>
-              <li><a href="#"><i class="fa fa-dashboard"></i></a></li>
-             </ul>
+           <img class="img-responsive" src="images/hockey_skill5.jpg" alt="">
            </div>
-         </div>
-         <div class="car-list">
-           <ul class="list-inline">
-             <li><i class="fa fa-registered"></i> 2017</li>
-             <li><i class="fa fa-cog"></i> Manual </li>
-             <li><i class="fa fa-dashboard"></i> 6,000 mi</li>
-           </ul>
-        </div>
          <div class="car-content">
           <div class="star">
            <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
             <i class="fa fa-star orange-color"></i>
-            <i class="fa fa-star orange-color"></i>
+            <i class="fa fa-star-o orange-color"></i>
             <i class="fa fa-star-o orange-color"></i>
            </div>
-           <a href="#">Hyundai santa fe sport</a>
+           <a href="#">Hockey</a>
            <div class="separator"></div>
          </div>
        </div>
@@ -565,7 +454,7 @@
 <!--=================================
  latest news -->
 
-<section class="latest-blog gray-bg page-section-ptb">
+<!-- <section class="latest-blog gray-bg page-section-ptb">
   <div class="container">
    <div class="row">
     <div class="col-lg-12 col-md-12">
@@ -694,7 +583,7 @@
     </div>
   </div>
 </section> 
-
+ -->
 <!--=================================
  latest news -->
 

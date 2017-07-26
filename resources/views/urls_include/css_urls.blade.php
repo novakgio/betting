@@ -1,6 +1,7 @@
 <link rel="shortcut icon" href="images/favicon.ico" />
 
 <!-- bootstrap -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
 <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}" />
 
 <!-- flaticon -->

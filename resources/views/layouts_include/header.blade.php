@@ -45,7 +45,7 @@
         <!-- menu links -->
         <ul class="menu-links">
             <!-- active class -->
-            <li><a href="{{url('/login')}}">About Us</a></li>
+            <li><a href="{{url('/about-us')}}">About Us</a></li>
             <li><a href="{{url('/login')}}">How To Start?</a></li>
             <li><a href="{{url('/contact-us')}}">Contact Us</a></li>
 
@@ -53,7 +53,7 @@
              <li><a href="{{url('/login')}}">login</a></li>
             <li><a href="{{url('/register')}}">register</a></li>
             @else
-            <li><a href="{{url('/login')}}">Picks</a></li>
+            <li><a href="{{url('/today_pick')}}">Picks</a></li>
             <li><a href="{{url('/logout')}}">Logout</a></li>
             @endif
 

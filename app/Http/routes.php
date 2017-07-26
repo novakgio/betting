@@ -24,9 +24,12 @@ Route::get('register/verify/{confirmationCode}', [
     'as' => 'confirmation_path',
     'uses' => 'HomeController@confirmAfterRegister'
 ]);
+
+Route::post('/sendmessage','HomeController@sendMessage');
 Route::get('/logout','HomeController@logout');
 
-Route::get('/contact-us','HomeController@contactUs');
+Route::get('/contact-us','HomeController@contactUs')->name('contact');
 Route::get('/about-us','HomeController@aboutUs');
 
 Route::get('/home', 'HomeController@index');
+Route::get('/today_pick','HomeController@today_pick');

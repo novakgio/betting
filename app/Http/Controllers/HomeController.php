@@ -13,10 +13,7 @@ class HomeController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+
 
     /**
      * Show the application dashboard.
@@ -43,7 +40,7 @@ class HomeController extends Controller
         $user->confirmation_code = null;
         $user->save();
 
-       session()->flash('confirmemail', 'EMAIL CONFIRMED');
+        session()->flash('confirmemail', 'EMAIL CONFIRMED');
         session()->flash('emailtext', 'Thank you again for confirming your email with us');
         session()->flash('whotosay', "You're now ready To Start Working With Us");
 
@@ -64,5 +61,28 @@ class HomeController extends Controller
 
     public function aboutUs(){
         return view('pages.about');
+    }
+
+    public function sendMessage(Request $request){
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required',
+            'phone'=>'required',
+            'text'=>'required'
+        ]);
+
+
+        \Mail::send('pages.contact_email', ['email'=>$request->email,'name'=>$request->name,'text'=>$request->text,'phone'=>$request->phone], function($message){
+            $message->from("gioskofieldsara@gmail.com", "From Bettinger" );
+            $message->to("gioskofield@gmail.com","haha")
+                ->subject('From Bettinger');
+        });
+
+        session()->flash('sendemail','we got your email. we will respond quickly');
+        return redirect()->route('contact');
+    }
+
+    public function today_pick(){
+        return view('pages.today_pick');
     }
 }
