@@ -85,9 +85,9 @@ class AuthController extends Controller
                 ->subject('Verify your email address');
         });
 
-        session()->flash('confirmemail', 'UNCONFIRMED EMAIL');
-        session()->flash('emailtext', 'Confirmation Email Sent. Confirm It To See All Features');
-        session()->flash('whotosay', 'Thanks For Registering  '. $user->username .' With Us');
+        session(['unconfirm'=>'UNCONFIRMED EMAIL']);
+        session(['unconfirmemail'=>'Confirmation Email Sent. Confirm It To See All Features']);
+        session(['unconfirmthank'=>'Thanks For Registering  '. $user->username .' With Us']);
         return $user;
 
 

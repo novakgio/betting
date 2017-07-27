@@ -34,7 +34,7 @@ Route::get('/about-us','HomeController@aboutUs');
 Route::get('/home', 'HomeController@index');
 Route::get('/today_pick','HomeController@today_pick');
 
-
+Route::get('/allpicks','HomeController@AllPicks');
 Route::get('/admin_side','AdminController@index');
 Route::get('/admin_side/changeAuthority/{authority_now}/{user_id}','AdminController@addAuthority');
 

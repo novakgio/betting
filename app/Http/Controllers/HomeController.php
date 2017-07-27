@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\User;
+use App\PlaceBet;
 use Auth;
 class HomeController extends Controller
 {
@@ -40,9 +41,14 @@ class HomeController extends Controller
         $user->confirmation_code = null;
         $user->save();
 
-        session()->flash('confirmemail', 'EMAIL CONFIRMED');
-        session()->flash('emailtext', 'Thank you again for confirming your email with us');
-        session()->flash('whotosay', "You're now ready To Start Working With Us");
+        session()->flash('confirm', 'EMAIL CONFIRMED');
+        session()->flash('confirmemail', 'Thank you again for confirming your email with us');
+        session()->flash('confirmthank', "You're now ready To Start Working With Us");
+
+
+        session()->forget('unconfirm');
+        session()->forget('unconfirmemail');
+        session()->forget('unconfirmthank');
 
         return \Redirect::route('registered_user');
 
@@ -84,5 +90,11 @@ class HomeController extends Controller
 
     public function today_pick(){
         return view('pages.today_pick');
+    }
+
+
+    public function AllPicks(){
+        $allbets = PlaceBet::all();
+        return view('pages.allpicks',compact('allbets'));
     }
 }

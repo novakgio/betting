@@ -66,7 +66,7 @@
  register-form  -->
 
 @if(Auth::user())
-<section class="register-form page-section-ptb">
+<section class="register-form page-section-ptb register">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
@@ -86,7 +86,7 @@
     </section>
 @else
 
-<section class="register-form page-section-ptb">
+<section class="register-form page-section-ptb register">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-1 col-md-10">

@@ -136,7 +136,7 @@ Page section margin padding
 /*************************
   Background Color
 ***********************/
-.white-bg {background-image: url("../images/bg/cool.jpg");}
+.white-bg, .register, .login {background-image: url("../images/bg/cool.jpg");}
 .gray-bg { background: #f6f6f6; }
 .dark-gray-bg { background: #908f94; }
 .red-bg { background: #db2d2e; }
@@ -1695,7 +1695,9 @@ h6{
   display:block;
   text-align:center;
 }
-
+ p{
+  font-size:20px;
+}
 .register-form{
   text-transform: lowercase;
 }

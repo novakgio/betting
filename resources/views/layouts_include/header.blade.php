@@ -49,11 +49,14 @@
             <li><a href="{{url('/login')}}">How To Start?</a></li>
             <li><a href="{{url('/contact-us')}}">Contact Us</a></li>
 
+
             @if(!Auth::user())
              <li><a href="{{url('/login')}}">login</a></li>
             <li><a href="{{url('/register')}}">register</a></li>
             @else
             <li><a href="{{url('/today_pick')}}">Picks</a></li>
+            <li><a href="{{url('/allpicks')}}">Previous Picks</a></li>
+
             <li><a href="{{url('/logout')}}">Logout</a></li>
             @endif
 

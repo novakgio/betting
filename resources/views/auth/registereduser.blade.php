@@ -45,7 +45,7 @@
   <div class="container">
      <div class="row text-center intro-title">
            <div class="col-lg-6 col-md-6 col-sm-6 text-left">
-             <h1 class="text-white">{{session()->get('confirmemail')}} </h1>
+             <h1 class="text-white">{{session()->get('unconfirmemail')}} </h1>
            </div>
            <div class="col-lg-6 col-md-6 col-sm-6 text-right">
              <ul class="page-breadcrumb">
@@ -65,7 +65,7 @@
 <!--=================================
  register-form  -->
 
-@if(Auth::user())
+@if(Auth::user() && session()->get('confirm'))
 <section class="register-form page-section-ptb">
   <div class="container">
     <div class="row">
@@ -73,12 +73,33 @@
          <div class="section-title">
          
           
-           <h2>{{session()->get('whotosay')}} </h2>
+           <h2>{{session()->get('confirmthank')}} </h2>
 
 
            <div class="separator"></div>
            <div class="separator"></div>
-           <h2>{{session()->get('emailtext')}} </h2>
+           <h2>{{session()->get('confirmemail')}} </h2>
+         </div>
+      </div>
+    </div>
+    </div>
+    </section>
+@endif
+
+@if(Auth::user() && session()->get('unconfirm'))
+<section class="register-form page-section-ptb">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+         <div class="section-title">
+         
+          
+           <h2>{{session()->get('unconfirmthank')}} </h2>
+
+
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <h2>{{session()->get('unconfirmemail')}} </h2>
          </div>
       </div>
     </div>
