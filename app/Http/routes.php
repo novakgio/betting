@@ -33,3 +33,13 @@ Route::get('/about-us','HomeController@aboutUs');
 
 Route::get('/home', 'HomeController@index');
 Route::get('/today_pick','HomeController@today_pick');
+
+
+Route::get('/admin_side','AdminController@index');
+Route::get('/admin_side/changeAuthority/{authority_now}/{user_id}','AdminController@addAuthority');
+
+Route::get('/getAllBets','BetController@yajraDatatable')->name('getAllBets');
+Route::get('/admin_side/users','AdminController@getAllUsersView')->name('userview');
+Route::get('admin_side/getusersajax','AdminController@getAllUsers')->name('getallusers');
+
+Route::resource('/admin_side/pick','BetController');
