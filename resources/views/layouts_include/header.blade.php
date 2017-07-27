@@ -4,16 +4,16 @@
     <div class="row">
       <div class="col-lg-6 col-md-6">
         <div class="topbar-left text-left">
-           <ul class="list-inline">
+           <ul class="list-inline" style="font-size: 13px;">
              <li> <i class="fa fa-envelope-o"> </i> support@website.com</li> 
-             <li> <i class="fa fa-clock-o"></i> Mon - Sat 8.00 - 18.00. Sunday CLOSED</li>
+             <li> <i class="fa fa-clock-o"></i> Mon - Sat 8.00 - 18.00</li>
            </ul>
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
         <div class="topbar-right text-right">
            <ul class="list-inline">
-             <li> <i class="fa fa-phone"></i> (007) 123 456 7890</li> 
+             <li style="font-size: 13px;"> <i class="fa fa-phone"></i> (007) 123 456 7890</li> 
              <li><a href="#"><i class="fa fa-facebook"></i></a></li>   
              <li><a href="#"><i class="fa fa-twitter"></i></a></li>   
              <li><a href="#"><i class="fa fa-instagram"></i></a></li>   
@@ -30,7 +30,7 @@
 
 <div class="menu">  
   <!-- menu start -->
-   <nav id="menu" class="mega-menu">
+   <nav id="menu" class="mega-menu" style="box-shadow: 5px 5px 15px black;">
     <!-- menu list items container -->
     <section class="menu-list-items">
      <div class="container"> 

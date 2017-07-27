@@ -192,7 +192,7 @@
 <!--=================================
  content-box -->
 
-<section class="content-box-section red-bg">
+<section class="content-box-section red-bg" style="box-shadow: 1px 1px 35px black;">
  <div class="container-fluid">
   <div class="row row-eq-height no-gutter">
     <div class="col-lg-4 col-md-4 content-box-6">
@@ -241,73 +241,16 @@
 
 
  <!--=================================
- content-box -->
-
-<section class="simple-box page-section-ptb">
- <div class="container">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive index-page-image center-block" src="images/lebron.jpg" alt="">
-      <br/>
-      <div class="feature-box-4">
-        <div class="icon">
-          <i class="glyph-icon flaticon-price-tag text-red"></i>
-        </div>
-        <div class="content">
-          <h6>What We Do?</h6>
-          <p>If you play in Gambling and place bets and lose most times, We made the system to help you out and make lots of money</p>
-        </div>
-     </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive index-page-image center-block" src="images/roger-federer.jpg" alt="">
-      <br/>
-      <div class="feature-box-4">
-        <div class="icon">
-          <i class="glyph-icon flaticon-air-conditioning text-red"></i>
-        </div>
-        <div class="content">
-          <h6>Why Us?</h6>
-          <p>Before we made the system, we looked through other websites like this one and we're 100% sure that our system is N-1 in the whole world. </p>
-        </div>
-     </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive index-page-image center-block" src="images/ronaldo.jpg" alt="">
-      <br/>
-      <div class="feature-box-4">
-        <div class="icon">
-          <i class="glyph-icon flaticon-reparation text-red"></i>
-        </div>
-        <div class="content">
-          <h6>24/7</h6>
-          <p>Our support is Always ready to help you out Anytime, answer your questions and always refund if it's your Choice</p>
-        </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </section>
- 
-<!--=================================
- content-box -->
-
-
-
- <!--=================================
- form -->
-
- <!--=================================
  feature-car -->
 
-<section class="feature-car new-arrival white-bg page-section-ptb">
+<section class="feature-car new-arrival white-bg page-section-ptb" >
   <div class="container">
    <div class="row">
     <div class="col-lg-12 col-md-12">
       <div class="section-title">
          <span>our 10 year experience includes</span>
          <h2>sports such as: </h2>
-         <div class="separator"></div>
+         <div class="separator"></div> 
       </div>
     </div>
    </div>
@@ -415,7 +358,6 @@
 <!--=================================
  feature-car -->
 
-
  <!--=================================
  play-video -->
 
@@ -450,6 +392,67 @@
  play-video -->
 
 
+ <!--=================================
+ content-box -->
+
+<section class="simple-box page-section-ptb">
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <img class="img-responsive index-page-image center-block" src="images/lebron.jpg" alt="">
+      <br/>
+      <div class="feature-box-4">
+        <div class="icon">
+          <i class="glyph-icon flaticon-price-tag text-red"></i>
+        </div>
+        <div class="content">
+          <h6>What We Do?</h6>
+          <p>If you play in Gambling and place bets and lose most times, We made the system to help you out and make lots of money</p>
+        </div>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <img class="img-responsive index-page-image center-block" src="images/roger-federer.jpg" alt="">
+      <br/>
+      <div class="feature-box-4">
+        <div class="icon">
+          <i class="glyph-icon flaticon-air-conditioning text-red"></i>
+        </div>
+        <div class="content">
+          <h6>Why Us?</h6>
+          <p>Before we made the system, we looked through other websites like this one and we're 100% sure that our system is N-1 in the whole world. </p>
+        </div>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <img class="img-responsive index-page-image center-block" src="images/ronaldo.jpg" alt="">
+      <br/>
+      <div class="feature-box-4">
+        <div class="icon">
+          <i class="glyph-icon flaticon-reparation text-red"></i>
+        </div>
+        <div class="content">
+          <h6>24/7</h6>
+          <p>Our support is Always ready to help you out Anytime, answer your questions and always refund if it's your Choice</p>
+        </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ 
+<!--=================================
+ content-box -->
+
+
+
+ <!--=================================
+ form -->
+
+ 
+
+
+ 
 
 <!--=================================
  latest news -->

@@ -72,8 +72,8 @@ NOTE:
 body {
 
   font-family: Oswald;
-  font-size: 20px;
-  font-style: italic;
+  font-size: 15px;
+  /*font-style: italic;*/
   font-variant: small-caps;;
   font-weight: 500;
   line-height: 26.4px;
@@ -132,11 +132,11 @@ Page section margin padding
 .text-white { color: #ffffff; }
 .text-black { color: #323232; }
 .text-gray { color: #626262; }
-
+ 
 /*************************
   Background Color
 ***********************/
-.white-bg { background: #ffffff; }
+.white-bg {background-image: url("../images/bg/cool.jpg");}
 .gray-bg { background: #f6f6f6; }
 .dark-gray-bg { background: #908f94; }
 .red-bg { background: #db2d2e; }
@@ -270,7 +270,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 
 /*topbar*/
 .topbar { border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 10px 0px; font-family: 'Roboto', sans-serif; }
-.topbar li, .topbar li a { color: #ffffff; }
+.topbar li, .topbar li a { color: #b1b1b1; }
 .topbar-left li i { padding-right: 5px; }
 .topbar-right .list-inline li:last-child, .topbar-right li:last-child i { padding-right: 0px; }
 .topbar .topbar-right li a:hover { color: #db2d2e; }
@@ -279,7 +279,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 /*mega-menu*/
 .mega-menu .menu-logo { padding: 36px 0px; }
 .mega-menu .menu-logo img { height: 36px; }
-.mega-menu .menu-links > li > a { line-height: 102px; text-transform: uppercase; font-size: 13px; font-weight: 500; }
+.mega-menu .menu-links > li > a { line-height: 90px; text-transform: uppercase; font-size: 17px; font-weight: 450; }
 .mega-menu .drop-down-multilevel.right-menu { right: 0px; }
 .mega-menu .menu-links > li:last-child > a { padding-right: 0px; }
 .mega-menu .menu-links > li.active .drop-down-multilevel a { color: #555555; }
@@ -315,7 +315,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 #header.topbar-dark .topbar { border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Roboto', sans-serif; }
 #header.topbar-dark .mega-menu .menu-links > li > a { color: #323232; }
 #header.topbar-dark .mega-menu .menu-links > li > a:hover { color: #db2d2e; }
-#header.topbar-dark .mega-menu.desktopTopFixed > section.menu-list-items { background: #ffffff; border-bottom: 1px solid #f6f6f6;  }
+#header.topbar-dark .mega-menu.desktopTopFixed > section.menu-list-items {box-shadow: 0px 0px 7px black; background: #ffffff; border-bottom: 1px solid #f6f6f6;  }
 #header.topbar-dark .mega-menu .menu-links > li.active a { color: #db2d2e; }
 #header.topbar-dark .mega-menu .menu-links > li.active .drop-down-multilevel li.active a { color: #db2d2e; }
 #header.topbar-dark .mega-menu .menu-links > li.active .drop-down-multilevel li a { color: #323232; }
@@ -1649,7 +1649,7 @@ ul.page-breadcrumb li a:hover { color: #db2d2e; }
 
 .index-page-image{
   display:block;
-  border-radius:30%;
+  border-radius:2%;
   height:200px;
   text-align: center;
 
@@ -1688,7 +1688,7 @@ ul.page-breadcrumb li a:hover { color: #db2d2e; }
 }
 
 h6{
-  color:#2D9D94;
+  color:black;
 }
 
 .content .button{
