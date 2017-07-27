@@ -78,7 +78,7 @@
     );
 }
 .about-images{
-  border-radius:50%;
+  border-radius:2%;
 }
 </style>
 <section class="welcome-4 page-section-ptb white-bg">
