@@ -30,5 +30,3 @@
 
 <!-- responsive -->
 <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}" />
-<link rel="stylesheet" type="text/css" href="{{asset('css/grid.css')}}" />
-<link rel="stylesheet" type="text/css" href="{{asset('css/style_table.css')}}" />

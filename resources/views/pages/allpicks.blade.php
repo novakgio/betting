@@ -10,6 +10,9 @@
 <title>WinnerTips</title>
 @include('urls_include.css_urls')
 
+<link rel="stylesheet" type="text/css" href="{{asset('css/grid.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('css/style_table.css')}}" />
+
 </head>
 
 <body>
