@@ -65,6 +65,16 @@
 <!--=================================
  register-form  -->
 
+<?php
+
+if(Auth::user()){
+
+  $emailconfirm = Auth::user()->confirmed;
+}
+
+
+?>
+
 @if(Auth::user() && session()->get('confirm'))
 <section class="register-form page-section-ptb">
   <div class="container">
@@ -84,9 +94,9 @@
     </div>
     </div>
     </section>
-@endif
 
-@if(Auth::user() && session()->get('unconfirm'))
+
+@elseif(Auth::user() && session()->get('unconfirm'))
 <section class="register-form page-section-ptb">
   <div class="container">
     <div class="row">
@@ -105,6 +115,35 @@
     </div>
     </div>
     </section>
+
+@elseif(Auth::user() && $emailconfirm==1)
+
+<script type="text/javascript"> window.location = "{{url('/')}}"; //redirect </script>
+
+
+@else
+
+<section class="register-form page-section-ptb">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+         <div class="section-title">
+         
+          
+           <h2>You Need To Confirm Your Email Address</h2>
+
+
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <h2>In Order To Be Able To See Our Bets</h2>
+         </div>
+      </div>
+    </div>
+    </div>
+    </section>
+
+
+
 @endif
  
  

@@ -1,4 +1,4 @@
-<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="shortcut icon" href="images/win.png" />
 
 <!-- bootstrap -->
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
@@ -30,3 +30,5 @@
 
 <!-- responsive -->
 <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('css/grid.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('css/style_table.css')}}" />

@@ -94,7 +94,11 @@ class HomeController extends Controller
 
 
     public function AllPicks(){
-        $allbets = PlaceBet::all();
+        $allbets = PlaceBet::paginate(1);
         return view('pages.allpicks',compact('allbets'));
+    }
+
+    public function howToStart(){
+        return view('pages.howtostart');
     }
 }

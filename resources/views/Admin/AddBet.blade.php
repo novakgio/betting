@@ -44,10 +44,12 @@
                                 
                             </div>
                              <div class="form-group">
-                                <label>Start_time?</label>
+                                <label>Start_time</label>
                                 <input class="form-control" name="start_time">
                                
                             </div>
+
+                           
 
                             <div class="form-group">
 

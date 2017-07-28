@@ -10,7 +10,6 @@
 <title>WinnerTips</title>
 
 
-
 @include('urls_include.css_urls')
 
 </head>
@@ -40,7 +39,7 @@
 <!--=================================
  inner-intro -->
  
- <section class="inner-intro bg-1 bg-overlay-black-70">
+<section class="inner-intro bg-1 bg-overlay-black-70">
   <div class="container">
      <div class="row text-center intro-title">
            <div class="col-lg-6 col-md-6 col-sm-6 text-left">
@@ -50,9 +49,9 @@
              <ul class="page-breadcrumb">
                 <li><a href="#"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
                 <li><a href="#">pages</a> <i class="fa fa-angle-double-right"></i></li>
-                <li><span>about us 01</span> </li>
+                <li><span>about us 02</span> </li>
              </ul>
-        </div>
+           </div>
      </div>
   </div>
 </section>
@@ -64,125 +63,40 @@
 <!--=================================
  welcome -->
 
-<style>
-
-.howtostart_button{
-  display:inline;
-}
-.welcome-4 {
-  background:
-    /* top, transparent black, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.3)
-    );
-}
-.about-images{
-  border-radius:2%;
-}
-</style>
 <section class="welcome-4 page-section-ptb white-bg">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
          <div class="section-title">
            <span>Welcome to </span>
-           <h2>the Betting Team</h2>
+           <h2>the WinnerTips Team</h2>
            <div class="separator"></div>
-           <p>We'd like to tell you all about us before you decide to start partnership with us. we are 4-guys team who make bets and advise people when to bet,what to 
-           bet on, how much to bet and how to <strong>Win</strong>.if you don't care about our history, you can check out the page where we explain to you why you should start making business with us. HERE IS THE LINK:
+           <p>time to start hell of a business. in this post,we talk to you about our system and what you need to do to be our partner. alongside the way, we teach you how to strengthen your psychology and make successfull bets. there's no way to make billions of money in a day,we hope you know that. our secret lives in slowness.imagine each day you wake up and place different bets,maybe you are making 5 games in one ticket and you place 50$. The chance that you lose is 95%.It doesn't matter how strongly you believe in each game, you should remember that most matches are sold in advance and it's getting you to lose.what we are giving you is : everyday we post only 1 or 2 games and there's 99% probability that this bet is going to win,but the fact is that you start this business with more than 500$ or 1000$. Why? when we think about games,and what to consult you , these bets are highly accurate and you won't lose ,but you have to risk with a lot of money so that there's a good profit from it. imagine you place 1000$ on 2 games each day , there's a coefficient 1.2 each day,so each day you make 200$ ,but remember not to waste this money ,whatever you win, you place it again next day. when i was writing this text, i was thinking about how you would react while reading this. Maybe your words are: 1.20 is not that hard to guess ,everyone could do that, i could do that,so why should i become a partner of this team? the answer is simple : you may win someday or lose, but with us : you never lose . you just make more and more money each day. our assumption is if you start with 1000$ , in 1 month, you will have 5000$ at least and 10 000 $ maximal value. That's great and fantastic.Isn't it? everyone thinks 1.20 is easy to guess but ask yourself how many people have won over totalizator forever? NO ONE ! that's why we are here to help you. Think about it? do you want to play by yourself and one day you wake up and you lose all money ,you got nothing and no one. this is what happens most time. we know that and you know that. so there's nothing bad to become partners with us and together, we will make the impossible.</p>
 
 
- <div class="tp-caption rev-btn button howtostart_button" 
-      style="z-index: 8; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 600;font-family:Open Sans;text-transform:capitalize;font-style:italic;padding:12px 35px 12px 35px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;display:block;margin-top:20px;">How To Start</div>
+           <h2>Here is the plan</h2>
+
+           <p> Every day you wake up , you come to our website and in the category called: today pick you see what to bet on that day and how much to bet. the chance of winning is 99-100% ,but remember you won't make much money on the first day and you might be willing to make billions in one month but that way or another you will lose finally. That's for sure. Our system is designed the way that you never lose . you will see it while playing with us. each day when you win,all you have to do after is to give us some percentage from your money.if you made 200$ on the first day,you have to transfer 15$ to our account. If you think why we are doing that and why we're not playing ourselves and why we need your money , the answer would be simple : we don't gamble at all. we finished it. because we have all we need and now we want to make you rich. don't think this is a lie or someday you will lose with us. NO WAY ! If you're not sure you want to do it or something like that,you can contact us through a chat or give us a call or give us an email. we know 1000$ is a lot of money ,but isn't it better to start with this money and make 5000$ than to make bets each day and after one month your total loss could be 1000$ ? Trust us , it's worth it. For More Questions You contact us so that we give you more information. we're not like other websites that sell tips. we're different and if you follow us for month, you will see how your life will change.</p> 
 
 
+           <h2>Final Plan</h2>
+           <p> As stated below,  each day you win ,you have to transfer 15$ .That's all we ask. The final thing is,we don't want to have fake people in our bussiness ! someone who doesn't play will be blocked. we want honest and kind people ,so we respect each other and both of our sides stay the winner. To avoid this misunderstanding, to start , you have to transfer 5$ to our account and give us a little screenshot so that you transfered 5$ to us and it's important you are registered before doing this and after transfering 5$ , you also give us your username and email,so we activate your profile and you're ready to see all the picks we give you</p>
 
-
-
-
-
-           </p>
+           <h2>OUR BANK ACCOUNTS</h2>
+           <h2>Paypal</h2>
+           <p>We accept money through paypal ! email : <strong>gioskofield@gmail.com</strong></p>
+           <h2>Bank</h2>
+           <p>We accept money through our bank which is located in our country ! <strong>Details :</strong>
+           <h2>
          </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <div class="owl-carousel-5">
-         <div class="item">
-           <img class="img-responsive about-images" src="images/about1.jpg" alt="">
-          </div>
-          <div class="item">
-           <img class="img-responsive about-images" src="images/about2.jpg" alt="">
-          </div>
-          <div class="item">
-           <img class="img-responsive about-images" src="images/about3.jpg" alt="">
-          </div> 
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <p>There was a time when we were almost kids and we wanted to make so much money so that we could do anything,have some parties,having girlfriends and breaking all the rules because we wouldn't give a <strong>SHIT</strong></p>
-        <br />
-        <p>So,we find out how gambling worked and started making bets. sometimes we would win,sometimes we would lose,but on the way we liked what we were doing.
-        as time was passing on, our lives were changing too. we lost more and more,not only money,but also friends,families and feelings for others.That's when we swore that we would stop gambling at all and start growing knowledge from it.
-        </p>
-       
-        <p>We learned all possible scenarios: we know how to win when there's no way to win and when you think you have lost all money and you think this is the end</p>
-        <p>We learned that this is a powerful business,which means there's so much money in it. So,we know how to beat it</p>
-        <p>We learned what and when is the best way to place your bets?</p>
+   
     
-        <p>If your question is: why you should trust us and why we are the better ones than others, Our answer would be: if you want to have the best life and start making so much money, you gotta risk in the beginning.without risk,there's no gain. a great thing is we shrink the risk possibility to the minimal. we will talk about this later</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="feature-box-3">
-          <div class="icon">
-            <i class="glyph-icon flaticon-beetle"></i>
-          </div>
-          <div class="content">
-            <h6>QUALITY 100%</h6>
-            <p>WE GIVE YOU 100% QUALITY BETS</p>
-          </div>
-         </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="feature-box-3">
-          <div class="icon">
-            <i class="glyph-icon flaticon-interface-1"></i>
-          </div>
-          <div class="content">
-            <h6>RISK 10%</h6>
-            <p>YOU HAVE TO RISK A LITTLE BIT</p>
-          </div>
-         </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="feature-box-3">
-          <div class="icon">
-            <i class="glyph-icon flaticon-key"></i>
-          </div>
-          <div class="content">
-            <h6>SUPPORT 24/7 </h6>
-            <p>WE'RE HERE ALL THE TIME</p>
-          </div>
-         </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="feature-box-3">
-          <div class="icon">
-            <i class="glyph-icon flaticon-wallet"></i>
-          </div>
-          <div class="content">
-            <h6>TRUST 100%</h6>
-            <p>FOR THE FIRST TIME,WE DESERVE YOUR TRUST</p>
-          </div>
-         </div>
-      </div>
-    </div>
   </div>
 </section>
+
+<!--=================================
 
 <!--=================================
  welcome -->
@@ -197,8 +111,8 @@ our History -->
    <div class="row">
     <div class="col-lg-12 col-md-12">
       <div class="section-title">
-         <span>a brief overwie how we came to this</span>
-         <h2>our history</h2>
+         <span>a brief overview how to start</span>
+         <h2>the best easy-money business</h2>
          <div class="separator"></div>
       </div>
     </div>
@@ -210,10 +124,10 @@ our History -->
           <div class="timeline-badge"><h4>01</h4></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h5>the beginning</h5>
+              <h5>PLAN 1</h5>
             </div>
             <div class="timeline-body">
-              <p>we had no money,but we had friends and families</p>
+              <p>You transfer 5$ to our bank account and you give us a proof (screenshot) that you sent it to our email(SEE CONTACT PAGE) and you give us your email you used when registered</p>
             </div>
           </div>
         </li>
@@ -221,10 +135,10 @@ our History -->
           <div class="timeline-badge"><h4>02</h4></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h5>Something Bad</h5>
+              <h5>PLAN 2</h5>
             </div>
             <div class="timeline-body">
-              <p>we started gambling,we lost friends and families,gambling took care of all of these.</p>
+              <p>we activate your profile and you can now see all picks.</p>
             </div>
           </div>
         </li>
@@ -232,10 +146,10 @@ our History -->
           <div class="timeline-badge"><h4>03</h4></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h5>What we learned</h5>
+              <h5>PLAN 3</h5>
             </div>
             <div class="timeline-body">
-              <p>We learned from our mistakes and we want to give some help to others.</p>
+              <p>doesn't matter how much money you start this bussiness with. it's your choice.we recommend from 500-1000$ . </p>
             </div>
           </div>
         </li>
@@ -244,10 +158,10 @@ our History -->
           <div class="timeline-badge"><h4>04</h4></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h5>Where are we?</h5>
+              <h5>PLAN 4</h5>
             </div>
             <div class="timeline-body">
-              <p>we got back our friends' love and we have become professionals. make it same and we will change you</p>
+              <p>doesn't matter how much you win each day,you transfer 15$ to our account or next day you get blocked again.</p>
             </div>
           </div>
         </li>

@@ -1,0 +1,133 @@
+h6 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+.container {
+    width: 900px;
+}
+
+.dark-block {
+    margin-bottom: 10px;
+    background: #454c54;
+}
+
+.light-block {
+    margin-bottom: 10px;
+    background: #868f98;
+}
+
+.table-h5 {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.table-h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.middle-span {
+    color: white;
+    text-align: center;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.first-span {
+    border-right: 1px solid white;
+    padding-right: 5px;
+    color: white;
+}
+
+.third-span {
+    border-left: 1px solid white;
+    padding-left: 5px;
+    color: white;
+}
+
+.centerd-container {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.in-table {
+    margin-top: 7px;
+}
+
+.my-btn-red {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    background: #b81e20;
+    padding: 15px 80px;
+    border: 1px solid #b81e20;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.5s;
+}
+
+.my-btn-red:hover {
+    color: #b81e20;
+    background: white;
+    border: 1px solid #b81e20;
+}
+
+.my-btn-yellow {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    background: yellow;
+    padding: 15px 80px;
+    border: 1px solid #b81e20;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.5s;
+}
+
+.my-btn-yellow:hover {
+    color: yellow;
+    background: white;
+    border: 1px solid #b81e20;
+}
+
+.my-btn-green {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    background: #15cd4d;
+    padding: 15px 80px;
+    border: 1px solid #15cd4d;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: all 0.5s;
+}
+
+.my-btn-green:hover {
+    color: #15cd4d;
+    background: white;
+    border: 1px solid #15cd4d;
+}
+
+

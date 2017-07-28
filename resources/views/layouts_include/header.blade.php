@@ -39,14 +39,14 @@
         <!-- menu logo -->
         <ul class="menu-logo">
             <li>
-                <a href="index.html"><img id="logo_dark_img" src="images/logo-dark.png" alt="logo"> </a>
+                <a href="index.html"><img id="logo_dark_img" src="images/win.png" alt="logo"> </a>
             </li>
         </ul>
         <!-- menu links -->
         <ul class="menu-links">
             <!-- active class -->
             <li><a href="{{url('/about-us')}}">About Us</a></li>
-            <li><a href="{{url('/login')}}">How To Start?</a></li>
+            <li><a href="{{url('/how-to-start')}}">How To Start?</a></li>
             <li><a href="{{url('/contact-us')}}">Contact Us</a></li>
 
 

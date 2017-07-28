@@ -7,10 +7,7 @@
 <meta name="description" content="Car Dealer - The Best Car Dealer Automotive Responsive HTML5 Template" />
 <meta name="author" content="potenzaglobalsolutions.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Car Dealer - The Best Car Dealer Automotive Responsive HTML5 Template</title>
-
-
-
+<title>WinnerTips</title>
 @include('urls_include.css_urls')
 
 </head>
@@ -44,7 +41,7 @@
   <div class="container">
      <div class="row text-center intro-title">
            <div class="col-lg-6 col-md-6 col-sm-6 text-left">
-             <h1 class="text-white">About us </h1>
+             <h1 class="text-white">Our Previous Bets </h1>
            </div>
            <div class="col-lg-6 col-md-6 col-sm-6 text-right">
              <ul class="page-breadcrumb">
@@ -63,40 +60,76 @@
 
 <!--=================================
  welcome -->
+<div class="white-bg">
+<div class="container">
+  <h2>These are Previous Bets ! Looks Good Right?</h2>
+        @foreach($allbets as $bet)
+          <div class="row dark-block">
+              <div class="col span-1-of-6">
+                  <h6>1</h6>
+              </div>
 
-<table class="table">
-  <thead class="thead-inverse">
-    <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+              <div class="col span-3-of-6">
+                  <div class="row">
+                      <div class="col span-1-of-3">
+                          <h5 class="table-h5">{{$bet->team_one}}</h5>
+                      </div>
+                      <div class="col span-1-of-3">
+                          <h4 class="table-h4">VS</h5>
+                      </div>
+                      <div class="col span-1-of-3">
+                          <h5 class="table-h5">{{$bet->team_two}}</h5>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col span-1-of-3 right-aligned">
+                          <span class="first-span">{{$bet->start_time}}</span>
+                      </div>
+                      <div class="col span-1-of-3 center-aligned">
+                          <span class="middle-span" style="font-size:16px;">Result : {{$bet->winner_pick}}</span>
+                      </div>
+                      <div class="col span-1-of-3 left-aligned">
+                          <span class="third-span">Sport Name : {{$bet->sport_name}}</span>
+                      </div>
+                  </div>
+              </div>
+              <?php 
+                $state;
+                $button;
+                switch($bet->state){
+                  case 2:
+                    $state="WAITING";
+                    $button="my-btn-yellow";
+                    break;
+                  case 1:
+                    $state="WON";
+                    $button="my-btn-green";
+                    break;
+                  case 0:
+                    $state="LOST";
+                    $button="my-btn-red";
+                    break;
+                }
+               
 
 
 
+              ?>
+              <div class="col span-2-of-6">
+                  <div class="centerd-container">
+                      <button class="{{$button}}">{{$state}}</button>
+                  </div>
+              </div>
+          </div>
+        @endforeach
+
+
+        {{$allbets->render()}}
+        
+       
+        </div>
+    </div>
+</div>
 <footer class="footer bg-3 bg-overlay-black-90">
   <div class="container">
     <div class="row">
