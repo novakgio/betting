@@ -402,7 +402,7 @@
       <br/>
       <div class="feature-box-4">
         <div class="icon">
-          <i class="glyph-icon flaticon-price-tag text-red"></i>
+          <i class="glyph-icon flaticon-price-tag text-red" style="padding-top: 16px;"></i>
         </div>
         <div class="content">
           <h6>What We Do?</h6>
@@ -415,7 +415,7 @@
       <br/>
       <div class="feature-box-4">
         <div class="icon">
-          <i class="glyph-icon flaticon-air-conditioning text-red"></i>
+          <i class="glyph-icon flaticon-air-conditioning text-red" style="padding-top: 16px;"></i>
         </div>
         <div class="content">
           <h6>Why Us?</h6>
@@ -428,7 +428,7 @@
       <br/>
       <div class="feature-box-4">
         <div class="icon">
-          <i class="glyph-icon flaticon-reparation text-red"></i>
+          <i class="glyph-icon flaticon-reparation text-red" style="padding-top: 16px;"></i>
         </div>
         <div class="content">
           <h6>24/7</h6>
