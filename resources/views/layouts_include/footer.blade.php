@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-6">
         <div class="about-content">
-          <img class="img-responsive" id="logo-footer" src="public/images/win.png" alt="">
+          <img class="img-responsive" id="logo-footer" src="public/images/win.png" alt="" style="width: 130px; height: auto;">
           <p class="copyright_winnertips">We Give You Everything You Need To Change Your Life To Better By Betting and Making EASY Money</p>
         </div>
         <div class="address">
