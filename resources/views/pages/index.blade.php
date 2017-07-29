@@ -20,7 +20,7 @@
   
  <div id="loading">
   <div id="loading-center">
-      <img src="{{asset('public/images/loader.gif')}}" alt="">
+      <img src="{{asset('public/images/infinity.gif')}}" alt="">
  </div>
 </div>
 
@@ -54,8 +54,9 @@
     <!-- LAYER NR. 2 -->
     <div class="tp-caption   tp-resizeme" 
        id="slide-15-layer-2" 
-       data-x="600" 
+       data-x="650" 
        data-y="200" 
+      
             data-width="['auto']"
       data-height="['auto']"
       data-transform_idle="o:1;"
@@ -74,7 +75,7 @@
     <!-- LAYER NR. 3 -->
     <div class="tp-caption   tp-resizeme" 
        id="slide-15-layer-3" 
-       data-x="650" 
+       data-x="680" 
        data-y="400" 
             data-width="['auto']"
       data-height="['auto']"
@@ -92,9 +93,9 @@
       style="z-index: 7; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: rgba(0, 0, 0, 1.00);font-family:Open Sans;font-style:italic;">We Have An Unique<strong> 100% PLAN </strong> </div>
 
     <!-- LAYER NR. 4 -->
-    <div class="tp-caption rev-btn button" 
+    <div class="tp-caption rev-btn button" onclick="findout();"
        id="slide-15-layer-4" 
-       data-x="750" 
+       data-x="800" 
        data-y="470" 
             data-width="['auto']"
       data-height="['auto']"
@@ -158,7 +159,7 @@
       style="z-index: 8; white-space: nowrap; font-size: 36px; line-height: 36px; font-weight: 300; color: #2D9D94;">We Are N-1 With This System  </div>
 
     <!-- LAYER NR. 5 -->
-    <div class="tp-caption rev-btn button" 
+    <div class="tp-caption rev-btn button"  onclick="findout();"
        id="slide-16-layer-10" 
        data-x="center" data-hoffset="" 
        data-y="378" 
@@ -659,7 +660,11 @@ clients -->
             var tpj=jQuery;
       
       var revapi8;
+       function findout(){
+          window.location.href="{{url('/about-us')}}";
+        }
       tpj(document).ready(function() {
+
         if(tpj("#rev_slider_8_1").revolution == undefined){
           revslider_showDoubleJqueryError("#rev_slider_8_1");
         }else{

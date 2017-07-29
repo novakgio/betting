@@ -10,8 +10,8 @@
 <title>WinnerTips</title>
 @include('urls_include.css_urls')
 
-<link rel="stylesheet" type="text/css" href="{{asset('css/grid.css')}}" />
-<link rel="stylesheet" type="text/css" href="{{asset('css/style_table.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('public/css/grid.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('public/css/style_table.css')}}" />
 
 </head>
 
@@ -19,13 +19,11 @@
 
 <!--=================================
   loading -->
-  
  <div id="loading">
   <div id="loading-center">
-      <img src="{{asset('images/loader.gif')}}" alt="">
+      <img src="{{asset('public/images/infinity.gif')}}" alt="">
  </div>
 </div>
-
 <!--=================================
   loading -->
   

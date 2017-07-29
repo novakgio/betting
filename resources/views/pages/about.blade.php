@@ -19,13 +19,11 @@
 
 <!--=================================
   loading -->
-  
  <div id="loading">
   <div id="loading-center">
-      <img src="{{asset('images/loader.gif')}}" alt="">
+      <img src="{{asset('public/images/infinity.gif')}}" alt="">
  </div>
 </div>
-
 <!--=================================
   loading -->
   
@@ -110,13 +108,13 @@
       <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="owl-carousel-5">
          <div class="item">
-           <img class="img-responsive about-images" src="images/about1.jpg" alt="">
+           <img class="img-responsive about-images" src="public/images/about1.jpg" alt="">
           </div>
           <div class="item">
-           <img class="img-responsive about-images" src="images/about2.jpg" alt="">
+           <img class="img-responsive about-images" src="public/images/about2.jpg" alt="">
           </div>
           <div class="item">
-           <img class="img-responsive about-images" src="images/about3.jpg" alt="">
+           <img class="img-responsive about-images" src="public/images/about3.jpg" alt="">
           </div> 
         </div>
       </div>

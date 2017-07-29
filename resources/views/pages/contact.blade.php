@@ -20,7 +20,11 @@
  
 <!--=================================
   loading -->
-
+ <div id="loading">
+  <div id="loading-center">
+      <img src="{{asset('public/images/infinity.gif')}}" alt="">
+ </div>
+</div>
   
 <!--=================================
  header -->
@@ -37,7 +41,7 @@
   <div class="container">
      <div class="row text-center intro-title">
            <div class="col-lg-6 col-md-6 col-sm-6 text-left">
-             <h1 class="text-white">Conatct us </h1>
+             <h1 class="text-white">Contact us </h1>
            </div>
            <div class="col-lg-6 col-md-6 col-sm-6 text-right">
              <ul class="page-breadcrumb">

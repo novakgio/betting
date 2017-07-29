@@ -20,9 +20,9 @@
 <!--=================================
   loading -->
   
- <div id="loading">
+  <div id="loading">
   <div id="loading-center">
-      <img src="images/loader.gif" alt="">
+      <img src="{{asset('public/images/infinity.gif')}}" alt="">
  </div>
 </div>
 
