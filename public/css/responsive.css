@@ -64,6 +64,10 @@ Design and Developed by: potenzaglobalsolutions.com
 }
 
 @media( max-width:992px) {
+#logo_dark_img {
+  width: 70px; 
+  height: auto;
+}
 .page-section-ptb { padding: 60px 0; }	
 .page-section-pt { padding-top: 60px ; }	
 .page-section-pb { padding-bottom: 60px; }	

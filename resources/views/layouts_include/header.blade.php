@@ -39,7 +39,7 @@
         <!-- menu logo -->
         <ul class="menu-logo my-menu-logo" style="padding-top: 10px;">
             <li>
-                <a href="index.html"><img id="logo_dark_img" style="width: 130px; height: auto;" src="{{asset('public/images/win.png')}}" alt="logo"> </a>
+                <a href="index.html"><img id="logo_dark_img"  src="{{asset('public/images/win.png')}}" alt="logo"> </a>
             </li>
         </ul>
         <!-- menu links -->

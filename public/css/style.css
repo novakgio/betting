@@ -68,6 +68,11 @@ NOTE:
 /*************************
     General
 *************************/
+#logo_dark_img {
+  width: 130px; 
+  height: auto;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800,800italic,300italic|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
 body {
 
@@ -1701,5 +1706,3 @@ h6{
 .register-form{
   text-transform: lowercase;
 }
-
-
