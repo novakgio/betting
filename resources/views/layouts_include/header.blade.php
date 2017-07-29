@@ -37,13 +37,13 @@
       <div class="row"> 
        <div class="col-lg-12 col-md-12"> 
         <!-- menu logo -->
-        <ul class="menu-logo">
+        <ul class="menu-logo my-menu-logo" style="padding-top: 10px;">
             <li>
-                <a href="index.html"><img id="logo_dark_img" src="{{asset('public/images/win.png')}}" alt="logo"> </a>
+                <a href="index.html"><img id="logo_dark_img" style="width: 130px; height: auto;" src="{{asset('public/images/win.png')}}" alt="logo"> </a>
             </li>
         </ul>
         <!-- menu links -->
-        <ul class="menu-links">
+        <ul class="menu-links" style="padding-top: 10px;">
             <!-- active class -->
             <li><a href="{{url('/about-us')}}">About Us</a></li>
             <li><a href="{{url('/how-to-start')}}">How To Start?</a></li>
