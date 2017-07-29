@@ -123,24 +123,49 @@ if(Auth::user()){
 
 @else
 
-<section class="register-form page-section-ptb">
+<style>
+  .full-height-sec {
+    height: 90vh;
+  }
+
+  .little-padding-top {
+    padding-top: 60px;
+  }
+</style>
+
+<section class="register-form page-section-ptb full-height-sec">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
          <div class="section-title">
-         
-          
            <h2>You Need To Confirm Your Email Address</h2>
-
-
            <div class="separator"></div>
-           <div class="separator"></div>
+        </div>
+      </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="img-responsive index-page-image center-block" src="images/lebron.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="img-responsive index-page-image center-block" src="images/roger-federer.jpg" alt="">
+        </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <img class="img-responsive index-page-image center-block" src="images/ronaldo.jpg" alt="">
+        </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-offset-1 col-md-10 little-padding-top">
+        <div class="section-title">
            <h2>In Order To Be Able To See Our Bets</h2>
          </div>
       </div>
     </div>
-    </div>
-    </section>
+  </div>
+</section>
 
 
 
