@@ -145,13 +145,13 @@ if(Auth::user()){
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4">
-          <img class="img-responsive index-page-image center-block" src="images/lebron.jpg" alt="">
+          <img class="img-responsive index-page-image center-block" src="public/images/lebron.jpg" alt="">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
-          <img class="img-responsive index-page-image center-block" src="images/roger-federer.jpg" alt="">
+          <img class="img-responsive index-page-image center-block" src="public/images/roger-federer.jpg" alt="">
         </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <img class="img-responsive index-page-image center-block" src="images/ronaldo.jpg" alt="">
+            <img class="img-responsive index-page-image center-block" src="public/images/ronaldo.jpg" alt="">
         </div>
         </div>
       </div>
