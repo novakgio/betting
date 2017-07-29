@@ -515,6 +515,8 @@ var POTENZA = {};
        });
   }
 
+  
+
 
 /****************************************************
      POTENZA Window load and functions

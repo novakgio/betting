@@ -50,7 +50,7 @@
              <ul class="page-breadcrumb">
                 <li><a href="#"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
                 <li><a href="#">pages</a> <i class="fa fa-angle-double-right"></i></li>
-                <li><span>about us 01</span> </li>
+                <li><span>about us</span> </li>
              </ul>
         </div>
      </div>
@@ -93,7 +93,7 @@
            bet on, how much to bet and how to <strong>Win</strong>.if you don't care about our history, you can check out the page where we explain to you why you should start making business with us. HERE IS THE LINK:
 
 
- <div class="tp-caption rev-btn button howtostart_button" 
+ <div class="tp-caption rev-btn button howtostart_button" onclick="gotostart();"
       style="z-index: 8; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 600;font-family:Open Sans;text-transform:capitalize;font-style:italic;padding:12px 35px 12px 35px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;display:block;margin-top:20px;">How To Start</div>
 
 
@@ -264,7 +264,7 @@ our History-->
  <!--=================================
  Counter -->
 
-<section class="counter counter-style-2 bg-red bg-1 bg-overlay-black-70 page-section-ptb">
+<!-- <section class="counter counter-style-2 bg-red bg-1 bg-overlay-black-70 page-section-ptb">
   <div class="container">
     <div class="row">
      <div class="col-lg-3 col-md-3 col-sm-6 item">
@@ -310,7 +310,7 @@ our History-->
     </div>
   </div>
 </section>
-
+ -->
  <!--=================================
  Counter -->
 
@@ -417,110 +417,7 @@ our History-->
 <!--=================================
  footer -->
 
-<footer class="footer bg-3 bg-overlay-black-90">
-  <div class="container">
-    <div class="row">
-     <div class="col-lg-12 col-md-12">
-      <div class="social">
-        <ul>
-          <li><a class="facebook" href="#">facebook <i class="fa fa-facebook"></i> </a></li>
-          <li><a class="twitter" href="#">twitter <i class="fa fa-twitter"></i> </a></li>
-          <li><a class="pinterest" href="#">pinterest <i class="fa fa-pinterest-p"></i> </a></li>
-          <li><a class="dribbble" href="#">dribbble <i class="fa fa-dribbble"></i> </a></li>
-          <li><a class="google-plus" href="#">google plus <i class="fa fa-google-plus"></i> </a></li>
-          <li><a class="behance" href="#">behance <i class="fa fa-behance"></i> </a></li>
-        </ul>
-       </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="about-content">
-          <img class="img-responsive" id="logo-footer" src="images/logo-light.png" alt="">
-          <p>We provide everything you need to build an amazing dealership website developed especially for car sellers dealers or auto motor retailers.</p>
-        </div>
-        <div class="address">
-          <ul>
-            <li> <i class="fa fa-map-marker"></i><span>220E Front St. Burlington NC 27215</span> </li>
-            <li> <i class="fa fa-phone"></i><span>(007) 123 456 7890</span> </li>
-            <li> <i class="fa fa-envelope-o"></i><span>support@website.com</span> </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="usefull-link">
-        <h6 class="text-white">Useful Links</h6>
-          <ul>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Change Oil and Filter</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Brake Pads Replacement</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Timing Belt Replacement</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Pre-purchase Car Inspection</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Starter Replacement</a></li>
-          </ul>
-        </div> 
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-       <div class="recent-post-block">
-        <h6 class="text-white">recent posts </h6>
-          <div class="recent-post">
-            <div class="recent-post-image">
-              <img class="img-responsive" src="images/car/01.jpg" alt=""> 
-            </div>
-            <div class="recent-post-info">
-                <a href="#">Time to change your </a>
-                <span class="post-date"><i class="fa fa-calendar"></i>September 10, 2017</span>
-            </div>
-         </div>
-         <div class="recent-post">
-            <div class="recent-post-image">
-              <img class="img-responsive" src="images/car/02.jpg" alt=""> 
-            </div>
-            <div class="recent-post-info">
-                <a href="#">The best time to </a>
-                <span class="post-date"><i class="fa fa-calendar"></i>September 10, 2017</span>
-            </div>
-         </div>
-         <div class="recent-post">
-            <div class="recent-post-image">
-              <img class="img-responsive" src="images/car/03.jpg" alt=""> 
-            </div>
-            <div class="recent-post-info">
-                <a href="#">Replacing a timing </a>
-                <span class="post-date"><i class="fa fa-calendar"></i>September 10, 2017</span>
-            </div>
-         </div>
-       </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="news-letter">
-        <h6 class="text-white">subscribe Our Newsletter </h6>
-         <p>Keep up on our always evolving products features and technology. Enter your e-mail and subscribe to our newsletter.</p>
-         <form class="news-letter">
-           <input type="email" placeholder="Enter your Email" class="form-control placeholder">
-           <a class="button red" href="#">Subscribe</a>
-         </form>
-        </div> 
-      </div>
-    </div>
-    <hr />
-    <div class="copyright">
-     <div class="row">
-      <div class="col-lg-6 col-md-6">
-       <div class="text-left">
-        <p>©Copyright 2017 Car Dealer Developed by <a href="http://www.potenzaglobalsolutions.com/" target="_blank">Potenzaglobalsolutions</a></p>
-       </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <ul class="list-inline text-right">
-          <li><a href="#">privacy policy </a> | </li> 
-          <li><a href="#">terms and conditions </a> |</li> 
-          <li><a href="#">contact us </a></li>
-        </ul>
-      </div>
-     </div>
-    </div>
-  </div>
-</footer>
+@include('layouts_include.footer')
  
 <!--=================================
  footer -->
@@ -535,6 +432,13 @@ our History-->
  <!--=================================
  back to top -->
  
+ <script>
+
+function gotostart(){
+    window.location.href="{{url('/how-to-start')}}";
+  }
+
+ </script>
 
 @include('urls_include.js_urls')
   

@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('auth.registereduser');
     }
 
 
@@ -100,5 +100,8 @@ class HomeController extends Controller
 
     public function howToStart(){
         return view('pages.howtostart');
+    }
+    public function policy(){
+        return view('pages.policy');
     }
 }
