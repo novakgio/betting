@@ -6,14 +6,14 @@
         <div class="topbar-left text-left">
            <ul class="list-inline" style="font-size: 13px;">
              <li> <i class="fa fa-envelope-o"> </i> support@website.com</li> 
-             <li> <i class="fa fa-clock-o"></i> Mon - Sat 8.00 - 18.00</li>
+             <li> <i class="fa fa-clock-o"></i>ALL THE TIME</li>
            </ul>
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
         <div class="topbar-right text-right">
            <ul class="list-inline">
-             <li style="font-size: 13px;"> <i class="fa fa-phone"></i> (007) 123 456 7890</li> 
+             <li style="font-size: 13px;"> <i class="fa fa-phone"></i> (+995) 555 18 00 67</li> 
              <li><a href="#"><i class="fa fa-facebook"></i></a></li>   
              <li><a href="#"><i class="fa fa-twitter"></i></a></li>   
              <li><a href="#"><i class="fa fa-instagram"></i></a></li>   
@@ -39,7 +39,7 @@
         <!-- menu logo -->
         <ul class="menu-logo">
             <li>
-                <a href="index.html"><img id="logo_dark_img" src="images/win.png" alt="logo"> </a>
+                <a href="index.html"><img id="logo_dark_img" src="{{asset('public/images/win.png')}}" alt="logo"> </a>
             </li>
         </ul>
         <!-- menu links -->

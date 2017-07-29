@@ -20,7 +20,7 @@
   
  <div id="loading">
   <div id="loading-center">
-      <img src="{{asset('images/loader.gif')}}" alt="">
+      <img src="{{asset('public/images/loader.gif')}}" alt="">
  </div>
 </div>
 
@@ -46,7 +46,7 @@
 <ul>  <!-- SLIDE  -->
     <li data-index="rs-15" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/slider-9/100x50_mainbg-3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
     <!-- MAIN IMAGE -->
-        <img src="revolution/assets/slider-9/bigcourt.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+        <img src="public/revolution/assets/slider-9/bigcourt.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
     <!-- LAYERS -->
 
     <!-- LAYER NR. 1 -->
@@ -115,7 +115,7 @@
   <!-- SLIDE  -->
     <li data-index="rs-16" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/slider-9/100x50_mainbg-3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
     <!-- MAIN IMAGE -->
-        <img src="revolution/assets/slider-9/biglebron.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+        <img src="public/revolution/assets/slider-9/biglebron.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
     <!-- LAYERS -->
 
     <!-- LAYER NR. 1 -->
@@ -258,7 +258,7 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/tennis_skill1.jpg" alt="">
+           <img class="img-responsive" src="public/images/tennis_skill1.jpg" alt="">
            
          </div>
          
@@ -278,7 +278,7 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/football_skill2.jpg" alt="">
+           <img class="img-responsive" src="public/images/football_skill2.jpg" alt="">
           </div>
          <div class="car-content">
           <div class="star">
@@ -296,7 +296,7 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/basketball_skill3.jpg" alt="">
+           <img class="img-responsive" src="public/images/basketball_skill3.jpg" alt="">
           </div>
          <div class="car-content">
           <div class="star">
@@ -314,7 +314,7 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/volleyball_skill4.jpg" alt="">
+           <img class="img-responsive" src="public/images/volleyball_skill4.jpg" alt="">
          </div>
          <div class="car-content">
           <div class="star">
@@ -332,7 +332,7 @@
      <div class="item">
        <div class="car-item price-remove gray-bg text-center">
          <div class="car-image">
-           <img class="img-responsive" src="images/hockey_skill5.jpg" alt="">
+           <img class="img-responsive" src="public/images/hockey_skill5.jpg" alt="">
            </div>
          <div class="car-content">
           <div class="star">
@@ -365,7 +365,7 @@
       <div class="col-lg-6 col-md-6">
         <div class="play-video-2">
         <div class="video-info text-center">
-           <img class="img-responsive center-block" src="images/car/17.jpg" alt="">
+           <img class="img-responsive center-block" src="public/images/car/17.jpg" alt="">
            <a class="popup-youtube" href="https://www.youtube.com/watch?v=Xd0Ok-MkqoE"> <i class="fa fa-play"></i> </a>
          </div>
         </div>  
@@ -397,7 +397,7 @@
  <div class="container">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive index-page-image center-block" src="images/lebron.jpg" alt="">
+      <img class="img-responsive index-page-image center-block" src="public/images/lebron.jpg" alt="">
       <br/>
       <div class="feature-box-4">
         <div class="icon">
@@ -410,7 +410,7 @@
      </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive index-page-image center-block" src="images/roger-federer.jpg" alt="">
+      <img class="img-responsive index-page-image center-block" src="public/images/roger-federer.jpg" alt="">
       <br/>
       <div class="feature-box-4">
         <div class="icon">
@@ -423,7 +423,7 @@
      </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <img class="img-responsive index-page-image center-block" src="images/ronaldo.jpg" alt="">
+      <img class="img-responsive index-page-image center-block" src="public/images/ronaldo.jpg" alt="">
       <br/>
       <div class="feature-box-4">
         <div class="icon">
@@ -598,28 +598,28 @@ clients -->
      <div class="col-lg-12 col-md-12">
        <div class="owl-carousel-6">
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/01.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/01.png" alt="">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/02.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/02.png" alt="">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/03.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/03.png" alt="">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/04.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/04.png" alt="">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/05.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/05.png" alt="">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/06.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/06.png" alt="">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/07.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/07.png" alt="">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="images/clients/08.png" alt="">
+            <img class="img-responsive center-block" src="public/images/clients/08.png" alt="">
           </div>
        </div>
      </div>
@@ -634,137 +634,7 @@ clients -->
 <!--=================================
  footer -->
 
-<footer class="footer footer-black bg-2 bg-overlay-black-90">
-  <div class="container">
-    <div class="row">
-     <div class="col-lg-12 col-md-12">
-      <div class="social">
-        <ul>
-          <li><a class="facebook" href="#">facebook <i class="fa fa-facebook"></i> </a></li>
-          <li><a class="twitter" href="#">twitter <i class="fa fa-twitter"></i> </a></li>
-          <li><a class="pinterest" href="#">pinterest <i class="fa fa-pinterest-p"></i> </a></li>
-          <li><a class="dribbble" href="#">dribbble <i class="fa fa-dribbble"></i> </a></li>
-          <li><a class="google-plus" href="#">google plus <i class="fa fa-google-plus"></i> </a></li>
-          <li><a class="behance" href="#">behance <i class="fa fa-behance"></i> </a></li>
-        </ul>
-       </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="about-content">
-          <img class="img-responsive" id="logo-footer" src="images/logo-light.png" alt="">
-          <p>We provide everything you need to build an amazing dealership website developed especially for car sellers dealers or auto motor retailers.</p>
-        </div>
-        <div class="address">
-          <ul>
-            <li> <i class="fa fa-map-marker"></i><span>220E Front St. Burlington NC 27215</span> </li>
-            <li> <i class="fa fa-phone"></i><span>(007) 123 456 7890</span> </li>
-            <li> <i class="fa fa-envelope-o"></i><span>support@website.com</span> </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="usefull-link">
-        <h6 class="text-white">Useful Links</h6>
-          <ul>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Change Oil and Filter</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Brake Pads Replacement</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Timing Belt Replacement</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Pre-purchase Car Inspection</a></li>
-            <li><a href="#"><i class="fa fa-angle-double-right"></i> Starter Replacement</a></li>
-          </ul>
-        </div> 
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-       <div class="recent-post-block">
-        <h6 class="text-white">recent posts </h6>
-          <div class="recent-post">
-            <div class="recent-post-image">
-              <img class="img-responsive" src="images/car/01.jpg" alt=""> 
-            </div>
-            <div class="recent-post-info">
-                <a href="#">Time to change your </a>
-                <span class="post-date"><i class="fa fa-calendar"></i>September 10, 2017</span>
-            </div>
-         </div>
-         <div class="recent-post">
-            <div class="recent-post-image">
-              <img class="img-responsive" src="images/car/02.jpg" alt=""> 
-            </div>
-            <div class="recent-post-info">
-                <a href="#">The best time to </a>
-                <span class="post-date"><i class="fa fa-calendar"></i>September 10, 2017</span>
-            </div>
-         </div>
-         <div class="recent-post">
-            <div class="recent-post-image">
-              <img class="img-responsive" src="images/car/03.jpg" alt=""> 
-            </div>
-            <div class="recent-post-info">
-                <a href="#">Replacing a timing </a>
-                <span class="post-date"><i class="fa fa-calendar"></i>September 10, 2017</span>
-            </div>
-         </div>
-       </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="news-letter">
-        <h6 class="text-white">subscribe Our Newsletter </h6>
-         <p>Keep up on our always evolving products features and technology. Enter your e-mail and subscribe to our newsletter.</p>
-         <form class="news-letter">
-           <input type="email" placeholder="Enter your Email" class="form-control placeholder">
-           <a class="button red" href="#">Subscribe</a>
-         </form>
-        </div> 
-      </div>
-    </div>
- 
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <div class="footer-box">
-          <div class="box-content">
-            <h6 class="text-white">ARE YOU LOOKING FOR A CAR?</h6>
-            <p class="text-white"> Search Our Inventory With Thousands Of Cars And More Cars Are Adding On Daily Basis</p>
-          </div>
-          <div class="box-link">
-            <a class="button" href="#">read more</a>
-          </div>
-        </div>
-     </div>
-     <div class="col-lg-6 col-md-6 col-sm-6">
-        <div class="footer-box">
-          <div class="box-content">
-            <h6 class="text-white">DO YOU WANT TO SELL A CAR?</h6>
-            <p class="text-white"> Search Our Inventory With Thousands Of Cars And More Cars Are Adding On Daily Basis</p>
-          </div>
-          <div class="box-link">
-            <a class="button" href="#">read more</a>
-          </div>
-        </div>
-     </div> 
-    </div>
-  </div>
-
-  <div class="copyright">
-   <div class="container">
-     <div class="row">
-      <div class="col-lg-6 col-md-6">
-       <div class="text-left">
-        <p>©Copyright 2017 Car Dealer Developed by <a href="http://www.potenzaglobalsolutions.com/" target="_blank">Potenzaglobalsolutions</a></p>
-       </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <ul class="list-inline text-right">
-          <li><a href="#">privacy policy </a> | </li> 
-          <li><a href="#">terms and conditions </a> |</li> 
-          <li><a href="#">contact us </a></li>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-</footer>
+@include('layouts_include.footer')
 
  <!--=================================
  footer -->
